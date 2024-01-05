@@ -6,15 +6,15 @@ import menu_guru from "./menu-guru";
 const NavMenu = () => {
   return (
     <>
-      <ul>
+      <ul >
         {menu_guru.map((menu_item, i) => (
           <li key={i}>
-            <Link href={menu_item.link}>{menu_item.title}</Link>
+            <Link href={menu_item.link} style={{marginTop:6.5}}>{menu_item.title}</Link>
             {menu_item.has_dropdown && (
               <ul className="submenu">
                 {menu_item.sub_menus?.map((sub_menu, i) => (
-                  <li key={i}>
-                    <Link href={sub_menu.link}>{sub_menu.title}</Link>
+                  <li key={i} >
+                    <Link href={sub_menu.link} >{sub_menu.title}</Link>
                   </li>
                 ))}
               </ul>

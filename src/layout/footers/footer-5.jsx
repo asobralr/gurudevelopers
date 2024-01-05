@@ -10,7 +10,7 @@ import React from 'react';
 
 import shape_img_1 from "../../../public/assets/img/footer/footer-inner-1.png";
 import shape_img_2 from "../../../public/assets/img/footer/footer-inner-2.png";
-import footer_logo from "../../../public/assets/img/logo/logo-black.png";
+import footer_logo from "../../../public/assets/img/logo/logo_guru.png";
 
 
 const footer_content = {
@@ -26,11 +26,8 @@ const footer_content = {
             title: "Navigation",
             delay: ".7s",
             links: [
-                {name: "Damo page", link: "#"},
-                {name: "About", link: "/about"},
-                {name: "Pricing Plan", link: "/price"},
-                {name: "Integrations", link: "/integrations"},
-                {name: "Blog", link: "/blog"},
+                {name: "Team", link: "/team"},
+                {name: "Projects", link: "/project"},
                 {name: "Contact", link: "/contact"},
             ]
         },
@@ -38,15 +35,18 @@ const footer_content = {
             id: 2,
             cls_1: "col-xl-2 col-lg-2",
             cls_2: "footer-col-3-3",
-            title: "Other Pages",
+            title: "Featured Projects",
             delay: ".9s",
             links: [
-                {name: "Features", link: "#"},
-                {name: "Team", link: "/team"},
-                {name: "Careers", link: "#"},
-                {name: "Login", link: "/login"},
-                {name: "Register", link: "/register"},
-                {name: "404 Not found", link: "/404"},
+                // {name: "Features", link: "#"},
+                // {name: "Team", link: "/team"},
+                // {name: "Careers", link: "#"},
+                // {name: "Login", link: "/login"},
+                // {name: "Register", link: "/register"},
+                // {name: "404 Not found", link: "/404"},
+                {name: "Project1", link: "/#"},
+                {name: "Project2", link: "/#"},
+                {name: "Project3", link: "/#"},
             ]
         },
 
@@ -76,7 +76,7 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
 
                         <div className="col-xl-3 col-lg-3 col-md-6 pb-30  wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
                            <div className={`tp-footer__widget ${style_team && "tp-footer__input-inner"} footer-widget-3 footer-col-3-1`}>  
-                              <div className="tp-footer__logo mb-25">
+                              <div className="tp-footer__logo mb-25" style={{marginTop:-19}}>
                                  <Link href="/">
                                     <Image src={footer_logo} alt="" />
                                  </Link>
@@ -114,7 +114,7 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
                         </div>
                             )
                         } 
-                        <div className="col-xl-4 col-lg-4 col-md-6 pb-30  wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                        {/* <div className="col-xl-4 col-lg-4 col-md-6 pb-30  wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
                            <div className="tp-footer__widget footer-widget-3 footer-widget-5 footer-col-3-4">
                               <h4 className="tp-footer__widget-title">Our Newsletter</h4>
                               <div className="tp-footer__input mb-35 p-relative">
@@ -136,7 +136,7 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
                                  <Link href="#"><i className="fab fa-pinterest"></i></Link>
                               </div>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                </div>

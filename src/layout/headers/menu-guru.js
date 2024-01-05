@@ -33,7 +33,7 @@ const menu_guru = [
   {
     id: 3,
     mega_menu: false,
-    has_dropdown: true,
+    has_dropdown: false,
     title: 'Projects',
     link: '/project',
     active: '',

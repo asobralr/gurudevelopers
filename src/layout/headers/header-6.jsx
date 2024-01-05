@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 import NavMenu from './nav-menu';
 
 
-import logo_black from "../../../public/assets/img/logo/logo-black.png";
+import logo_black from "../../../public/assets/img/logo/logo_guru.png";
 import logo_white from "../../../public/assets/img/logo/logo-white.png";
 
 
@@ -36,7 +36,7 @@ const HeaderSix = ({ style_2 = false }) => {
                      </div>
                      <div className="col-xxl-7 col-xl-7 col-lg-7 d-none d-lg-block">
                         <div className="header-bottom__main-menu header-bottom__main-menu-4 header-bottom__main-menu-inner">
-                           <nav id="mobile-menu">
+                           <nav id="mobile-menu" style={{marginLeft:30}}>
                               <NavMenu />
                            </nav>
                         </div>
