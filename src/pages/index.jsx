@@ -6,7 +6,7 @@ import HomeGuru from "../components/homes/guruHome";
 const Home = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Softec - Data analytics"} />
+      <SEO pageTitle={"GuruDevelopers"} />
       <HomeGuru />
     </Wrapper>
   );
