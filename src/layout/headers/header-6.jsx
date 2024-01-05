@@ -8,7 +8,7 @@ import NavMenu from './nav-menu';
 
 
 import logo_black from "../../../public/assets/img/logo/logo_guru.png";
-import logo_white from "../../../public/assets/img/logo/logo-white.png";
+import logo_white from "../../../public/assets/img/logo/logo_guru_white.png";
 
 
 const HeaderSix = ({ style_2 = false }) => {
