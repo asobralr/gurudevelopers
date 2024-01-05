@@ -21,11 +21,11 @@ const HomeOne = () => {
       <HeroSlider />
       <FeatureArea />
       <AboutArea />
-      <ServicesArea />
-      <ProjectArea />
-      <TestimonialArea />
+      {/* <ServicesArea /> */}
+      {/* <ProjectArea /> */}
+      {/* <TestimonialArea /> */}
       <RankArea />
-      <PriceArea />
+      {/* <PriceArea /> */}
       </main> 
       <Footer />
       <ScrollToTop />

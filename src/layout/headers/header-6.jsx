@@ -41,7 +41,10 @@ const HeaderSix = ({ style_2 = false }) => {
                            </nav>
                         </div>
                      </div>
-                     <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
+
+                     {/* LOGIN / REGISTER */}
+                     
+                     {/* <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-8 col-6">
                         <div className="header-bottom__right d-flex align-items-center justify-content-end">
                            <div className="header-bottom__action header-bottom__action-4 d-none d-xl-block">
                               <Link className="d-none d-lg-inline-block header-bottom__action-2 border-none" href="/register">
@@ -59,7 +62,7 @@ const HeaderSix = ({ style_2 = false }) => {
                               </a>
                            </div>
                         </div>
-                     </div>
+                     </div> */}
                   </div>
                </div>
             </div>

@@ -1,15 +1,15 @@
 import React from "react";
 import SEO from "../common/seo";
 import Wrapper from "../layout/wrapper";
-import HomeGuru from "../components/homes/guruHome";
+import HomeOne from "../components/homes/home";
 
-const Home = () => {
+const index = () => {
   return (
     <Wrapper>
       <SEO pageTitle={"Softec - Data analytics"} />
-      <HomeGuru />
+      <HomeOne />
     </Wrapper>
   );
 };
 
-export default Home;
+export default index;

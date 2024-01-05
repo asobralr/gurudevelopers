@@ -20,7 +20,7 @@ const {title, btn_text, bg_img, service_title, service_info}  = service_content
 const  ServiceArea = () => {
     return (
         <>
-            <div className="tp-service-area pb-90 z-index">
+            <div className="tp-service-area pb-90 pt-70 z-index">
                <div className="container">
 
                   <div className="row">

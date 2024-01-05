@@ -1,6 +1,6 @@
 import React from "react";
 import SEO from "../common/seo";
-import HomeThree from "../components/homes/home-3";
+import HomeThree from "../components/homes/guruHome";
 import Wrapper from "../layout/wrapper";
 
 const index = () => {
