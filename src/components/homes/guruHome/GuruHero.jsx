@@ -49,19 +49,7 @@ const GuruHero = () => {
                         </h2>
                         <p className="tp-char-animation-2 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">{info}</p>
                      </div>
-                     <div className="tp-hero-btn-3 text-center wow tpfadeUp" data-wow-duration="1s" data-wow-delay=".9s">
-                        <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="#">
-                           <span>{btn_1}</span>
-                           <b></b>
-                        </Link>
-                        <Link className="tp-btn-border tp-btn-hover alt-color-black" href="#">
-                           <span>{btn_2}</span>
-                           <b></b>
-                        </Link>
-                     </div>
-                     <div className="tp-hero-browser-wrapper d-flex align-items-center justify-content-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
-                        <Brwoser />
-                     </div>
+                     
                      <div className="tp-hero-3-wrapper p-relative">
                         <div className="tp-hero-3-border-wrap d-none d-md-block">
                            <span className="redius-shape-1"></span>

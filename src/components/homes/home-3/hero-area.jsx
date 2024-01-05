@@ -11,11 +11,13 @@ import gradient_bg from "../../../../public/assets/img/hero/hero-gradient-3.jpg"
 import img_1 from "../../../../public/assets/img/hero/hero-img-3-1.png";
 import img_2 from "../../../../public/assets/img/hero/hero-img-3-1-3.png" ;
 import { useIsomorphicLayoutEffect } from '@/src/hooks/useIsomorphicEffect';
+import Lottie from "lottie-react";
+import animationData from "../../../../public/assets/lottie/app2.json" ;
 
 const hero_content = { 
-   title_1: <>Great <span>Customer</span></>,
-   title_2: "Relationships Start Here.",
-   info: <>Softec provides all customer management service within one software. <br /> Our landing works on all devices.</>,
+   title_1: <>We <span>Love-</span></>,
+   title_2: " What we do.",
+   info: <>We're a friendly group of developers who build impactful products and relationships</>,
    btn_1: "Live Damo",
    btn_2: "Try it on Browser",
    
@@ -51,17 +53,10 @@ const HeroArea = () => {
                         <p className="tp-char-animation-2 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">{info}</p>
                      </div>
                      <div className="tp-hero-btn-3 text-center wow tpfadeUp" data-wow-duration="1s" data-wow-delay=".9s">
-                        <Link className="tp-btn-blue-lg tp-btn-hover alt-color-black" href="#">
-                           <span>{btn_1}</span>
-                           <b></b>
-                        </Link>
-                        <Link className="tp-btn-border tp-btn-hover alt-color-black" href="#">
-                           <span>{btn_2}</span>
-                           <b></b>
-                        </Link>
+                        
                      </div>
                      <div className="tp-hero-browser-wrapper d-flex align-items-center justify-content-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
-                        <Brwoser />
+                        
                      </div>
                      <div className="tp-hero-3-wrapper p-relative">
                         <div className="tp-hero-3-border-wrap d-none d-md-block">
@@ -70,7 +65,15 @@ const HeroArea = () => {
                            <span className="redius-shape-3"></span>
                         </div>
                         <div className="tp-hero-3-main-thumb z-index-5">
-                           <Image src={img_1} alt="them-pure" />
+
+                        </div>
+                        
+                        <div className="tp-hero-3-main-thumb z-index-5">
+                            <Lottie
+                              animationData={animationData}
+                              className="flex justify-center items-center"
+                              loop={true}
+                              />
                         </div>
                         <div className="tp-hero-3-shape-5 d-none d-lg-block wow frist-img animated">
                            <Image src={img_2} alt="them-pure" />
