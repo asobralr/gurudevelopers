@@ -8,15 +8,15 @@ import Image from 'next/image';
 import React from 'react';
 
 
-import shape_img_1 from "../../../public/assets/img/footer/footer-inner-1.png";
+import shape_img_1 from "../../../public/assets/img/footer/logo_float.png";
 import shape_img_2 from "../../../public/assets/img/footer/footer-inner-2.png";
-import footer_logo from "../../../public/assets/img/logo/logo_guru.png";
+import footer_logo from "../../../public/assets/img/footer/gurudev.png";
 
 
 const footer_content = {
-    info:"Build a modern and creative website with crealand",
-    phone: "+806 (000) 88 99",
-    email: "contact@info.com",
+    info:"Book a 15 minutes discovery call",
+    phone: "+54 (911) 5644 5275",
+    email: "info@gurudevelopers.dev",
     
     footer_lisks : [
         {
@@ -66,9 +66,7 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
                      <div className="tp-footer__shape-1 d-none d-xxl-block">
                         <Image src={shape_img_1} alt="theme-pure" />
                      </div>
-                     <div className="tp-footer__shape-2 d-none d-xxl-block">
-                        <Image src={shape_img_2} alt="" />
-                     </div>
+                     
                   </>
                   }
                   <div className="container">

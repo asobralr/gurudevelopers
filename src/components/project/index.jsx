@@ -32,7 +32,7 @@ const Project = () => {
           <main>
             <BreadcrumbTwo title={'Our Projects'} innertitle={'Projects'} />
             <Portfolio />
-            <CtaArea />
+            
           </main>
           <FooterFive style_contact={true} style_team={true} />
         </div>

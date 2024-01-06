@@ -14,7 +14,7 @@ const Team = () => {
           <main>
             <BreadcrumbTwo title={"Team Member"} innertitle={"Team Member"} />
             <TeamArea />
-            <CtaArea />
+            
           </main>
           <FooterFive style_contact={true} style_team={true} />
         </div>
