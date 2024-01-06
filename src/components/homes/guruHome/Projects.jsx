@@ -46,15 +46,21 @@ export const Projects = () => {
                 className='col-xl-4 col-lg-6 col-md-6 col-sm-6 grid-item  cat1 cat4 cat3 cat5'
               >
                 <div className='inner-project-item mb-30'>
-                  <div className='inner-project-img fix p-relative'>
+                  <div
+                    className='inner-project-img fix p-relative'
+                    style={{ height: 320 }}
+                  >
                     <Image
                       className='w-100'
                       src={item.thumb_img}
                       alt='theme-pure'
+                      style={{ height: '100%', objectFit: 'cover' }}
                     />
-                    <div className='inner-project-brand'>
-                      <Image src={item.brand_logo} alt='theme-pure' />
-                    </div>
+                    {item.brand_logo_view && (
+                      <div className='inner-project-brand'>
+                        <Image src={item.brand_logo} alt='theme-pure' />
+                      </div>
+                    )}
                   </div>
                   <div className='inner-project-content'>
                     <span className='inner-project-category-title'>
