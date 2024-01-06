@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
+import menu_guru from "./menu-guru";
 // internal
-import menu_data from "./menu-data";
 
 const MobileMenus = () => {
   const [navTitle, setNavTitle] = useState("");
@@ -17,7 +17,7 @@ const MobileMenus = () => {
     <>
       <nav className="mean-nav">
         <ul>
-          {menu_data.map((menu, i) => (
+          {menu_guru.map((menu, i) => (
             <React.Fragment key={i}>
               {menu.has_dropdown && (
                 <li className="has-dropdown">
