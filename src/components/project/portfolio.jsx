@@ -58,10 +58,14 @@ const Portfolio = () => {
                                     <Image src={item.brand_logo} alt="theme-pure" />
                                 </div>}
                             </div>
-                            <div className="inner-project-content">
+                            <div className="inner-project-content" style={{paddingRight:20}}>
                                 <span className="inner-project-category-title">{item.job_title}</span>
                                 <h4 className="inner-project-title"><Link href="/project-details">{item.title}</Link></h4>
                                 <p>{item.des}</p>
+                                <div className="buttons_card_project">
+                                    {item.slug && <Link href={`/project/${item.slug}`}>Details</Link>}
+                                    {item.link_site && <Link href={item.link_site || ''} target="_blank">Go Page</Link>}
+                                </div>
                             </div>
                             </div>
                         </div>

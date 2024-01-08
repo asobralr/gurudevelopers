@@ -6,14 +6,15 @@ import ProjectArea from "../homes/home/project-area";
 import ProjectDetailsArea from "./project-details-area";
 import ThumbArea from "./thumb-area";
 
-const ProjectDetails = () => {
+const ProjectDetails = ({project}) => {
+    console.log({project})
   return (
     <>
       <HeaderSix />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbEight />
+            <BreadcrumbEight project={project}/>
             <ThumbArea />
             <ProjectDetailsArea />
             <ProjectArea />

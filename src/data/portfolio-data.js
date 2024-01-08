@@ -36,7 +36,9 @@ const portfolio_data = [
     category: 'Web',
     filter_id: ['all', 'Web', 'Nextjs', 'Sanity'],
     brand_logo_view: false,
-    priorityHome: true
+    priorityHome: true,
+    link_site: 'https://paradiseresort.com.au/',
+    slug: 'paradise'
   },
   {
     id: 1,
@@ -48,10 +50,13 @@ const portfolio_data = [
     delay: '.5s',
     category: 'Web',
     filter_id: ['all', 'Web', 'Nextjs', 'Sanity'],
-    brand_logo_view: false
+    brand_logo_view: false,
+    priorityHome: false,
+    link_site: 'https://strapi-hotel-com.vercel.app',
+    slug: 'myhotels'
   },
   {
-    id: 1,
+    id: 2,
     thumb_img: thumb_img_1,
     brand_logo: brand_logo_1,
     job_title: 'Development Web 3 and App Development',
@@ -71,7 +76,7 @@ const portfolio_data = [
     priorityHome: true
   },
   {
-    id: 2,
+    id: 3,
     thumb_img: thumb_img_2,
     brand_logo: brand_logo_2,
     job_title: 'Mobile App Design',
@@ -90,7 +95,7 @@ const portfolio_data = [
     brand_logo_view: false
   },
   {
-    id: 3,
+    id: 4,
     thumb_img: thumb_img_3,
     brand_logo: brand_logo_3,
     job_title: 'Development, App Design',
@@ -109,7 +114,7 @@ const portfolio_data = [
     brand_logo_view: false
   },
   {
-    id: 4,
+    id: 5,
     thumb_img: thumb_img_4,
     brand_logo: brand_logo_4,
     job_title: 'Development, App Design',
@@ -129,10 +134,12 @@ const portfolio_data = [
       'Illusutration',
       'App Design'
     ],
-    brand_logo_view: false
+    brand_logo_view: false,
+    link_site: 'www.google.com',
+    slug: 'aol-sky'
   },
   {
-    id: 5,
+    id: 6,
     thumb_img: thumb_img_10,
     brand_logo: brand_logo_10,
     job_title: 'Development, App Design',
@@ -151,7 +158,7 @@ const portfolio_data = [
     brand_logo_view: false
   },
   {
-    id: 6,
+    id: 7,
     thumb_img: thumb_img_6,
     brand_logo: brand_logo_6,
     job_title: 'Development, App Design',
@@ -170,7 +177,7 @@ const portfolio_data = [
     brand_logo_view: false
   },
   {
-    id: 7,
+    id: 8,
     thumb_img: thumb_img_7,
     brand_logo: brand_logo_7,
     job_title: 'Design Wok, App Design',
@@ -190,7 +197,7 @@ const portfolio_data = [
     priorityHome: true
   },
   {
-    id: 8,
+    id: 9,
     thumb_img: thumb_img_8,
     brand_logo: brand_logo_8,
     job_title: 'Development, App Design',
@@ -209,7 +216,7 @@ const portfolio_data = [
     brand_logo_view: false
   },
   {
-    id: 9,
+    id: 10,
     thumb_img: thumb_img_9,
     brand_logo: brand_logo_9,
     job_title: 'Development, App Design',
