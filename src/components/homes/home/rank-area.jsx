@@ -5,10 +5,10 @@ import React from 'react';
 // img and icon import here 
 import bg_right_img from "../../../../public/assets/img/rank/rank-bg-shape.png" ;
 import top_img_1 from "../../../../public/assets/img/rank/rank-cup.png";
-import img_1 from "../../../../public/assets/img/rank/amazon.png";
-import img_2 from "../../../../public/assets/img/rank/ebay.png";
-import img_3 from "../../../../public/assets/img/rank/walmart.png";
-import img_4 from "../../../../public/assets/img/rank/shopify.png";
+import img_1 from "../../../../public/assets/img/rank/rn.webp";
+import img_2 from "../../../../public/assets/img/rank/nextjs.png";
+import img_3 from "../../../../public/assets/img/rank/backend.jpg";
+import img_4 from "../../../../public/assets/img/rank/Bitcoin.svg.png";
 // circle 
 import cirimg_1 from "../../../../public/assets/img/rank/sky-circle.png";
 import cirimg_2 from "../../../../public/assets/img/rank/yellow-circle.png";
@@ -24,13 +24,13 @@ const rank_data = [
     {
         id: 1,
         clg_1: "active z-index",
-        clg_2: "tp-rank__cup",
-        top_img: top_img_1,
+        clg_2: "",
+       // top_img: top_img_1,
         count: 1,
         img: img_1,
         // clg_3: "",
-        domain: "amazon.com",
-        visitors: "2.4B Visits",
+        domain: "React Native",
+        visitors: "Mobile Apps: 10",
 
     },
     {
@@ -41,8 +41,8 @@ const rank_data = [
         count: 2,
         img: img_2,
         // clg_3: "",
-        domain: "ebay.com",
-        visitors: "700.2M Visits",
+        domain: "React / Next.js",
+        visitors: "Webs: 8",
 
     },
     {
@@ -53,8 +53,8 @@ const rank_data = [
         count: 3,
         img: img_3,
         // clg_3: "",
-        domain: "walmart.com",
-        visitors: "489.6M Visits",
+        domain: "Backend - DB",
+        visitors: "projects: 5",
 
     },
     {
@@ -65,8 +65,8 @@ const rank_data = [
         count: 4,
         img: img_4,
         // clg_3: "",
-        domain: "shopify.com",
-        visitors: "386.6M Visits",
+        domain: "Blockchain",
+        visitors: "projects: 3",
 
     },
 ]
@@ -118,8 +118,8 @@ const circle_shape  = [
 ]
 
 const rank_content = {
-    sub_title: "Key Benefits",
-    title: <>Get more Sales <br /> by Improving <br /> Results</>,
+    sub_title: "Services",
+    title: <>Our best development services</>,
     btn_text: "Explore More",
     
 }

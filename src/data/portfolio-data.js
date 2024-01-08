@@ -2,7 +2,10 @@
 import thumb_img_0 from '../../public/assets/img/project/paradise.png'
 import thumb_img_1a from '../../public/assets/img/project/myhotels.png'
 import thumb_img_1 from '../../public/assets/img/project/pai.png'
+import thumb_img_2a from '../../public/assets/img/project/ABCo.png'
+
 import thumb_img_2 from '../../public/assets/img/project/brainbo.png'
+
 import thumb_img_3 from '../../public/assets/img/project/gc_site.jpg'
 import thumb_img_4 from '../../public/assets/img/project/aolSKY.png'
 import thumb_img_5 from '../../public/assets/img/project/pithia.png'
@@ -56,6 +59,30 @@ const portfolio_data = [
     slug: 'myhotels'
   },
   {
+    id: 1,
+    thumb_img: thumb_img_2a,
+    brand_logo: brand_logo_1,
+    job_title: 'Development Shopify, Backend and Frontend',
+    title: <>ABCo</>,
+    des: <>.</>,
+    delay: '.5s',
+    category: 'Web',
+    filter_id: ['all', 'Shopify', 'Mongo', 'Development'],
+    brand_logo_view: false
+  },
+  {
+    id: 1,
+    thumb_img: thumb_img_2a,
+    brand_logo: brand_logo_1,
+    job_title: 'Development Shopify, Backend and Frontend',
+    title: <>ABCo</>,
+    des: <>.</>,
+    delay: '.5s',
+    category: 'Web',
+    filter_id: ['all', 'Shopify', 'Mongo', 'Development'],
+    brand_logo_view: false
+  },
+  {
     id: 2,
     thumb_img: thumb_img_1,
     brand_logo: brand_logo_1,
@@ -64,14 +91,7 @@ const portfolio_data = [
     des: <>Convert money to a len token. Website and App.</>,
     delay: '.5s',
     category: 'Web3',
-    filter_id: [
-      'all',
-      'Design Work',
-      'Branding',
-      'Development',
-      'Illusutration',
-      'App Design'
-    ],
+    filter_id: ['all', 'Design Work', 'Branding', 'Development', 'App Design'],
     brand_logo_view: false,
     priorityHome: true
   },
