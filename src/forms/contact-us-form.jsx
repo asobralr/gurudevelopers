@@ -32,7 +32,7 @@ const ContactUsForm = () => {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        to: 'gonzaroble2@gmail.com',
+        to: 'soporte@gurudevelopers.com.ar',
         subject: 'SUBJECT!',
         body: `${name} - ${email} - ${phone} - ${service} - ${message}`,
         htmlBody: `<div>
