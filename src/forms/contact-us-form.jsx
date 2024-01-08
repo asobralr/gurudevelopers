@@ -36,7 +36,7 @@ const ContactUsForm = () => {
         subject: 'SUBJECT!',
         body: `${name} - ${email} - ${phone} - ${service} - ${message}`,
         htmlBody: `<div>
-            ${name} - ${email} - ${phone} - ${service} - ${message}
+            Full Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\nMessage: ${message}
           </div>`
       })
     })
