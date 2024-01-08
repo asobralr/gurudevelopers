@@ -1,4 +1,6 @@
 // thumb img import here
+import thumb_img_0 from '../../public/assets/img/project/paradise.png'
+import thumb_img_1a from '../../public/assets/img/project/myhotels.png'
 import thumb_img_1 from '../../public/assets/img/project/pai.png'
 import thumb_img_2 from '../../public/assets/img/project/brainbo.png'
 import thumb_img_3 from '../../public/assets/img/project/gc_site.jpg'
@@ -10,6 +12,7 @@ import thumb_img_8 from '../../public/assets/img/project/eter.png'
 import thumb_img_9 from '../../public/assets/img/project/moevius.png'
 import thumb_img_10 from '../../public/assets/img/project/alic.jpeg'
 // brand logo import here
+import brand_logo_0 from '../../public/assets/img/project/paradise.png'
 import brand_logo_1 from '../../public/assets/img/project/project-inner-brand-1.png'
 import brand_logo_2 from '../../public/assets/img/project/project-inner-brand-2.png'
 import brand_logo_3 from '../../public/assets/img/project/project-inner-brand-3.png'
@@ -23,14 +26,50 @@ import brand_logo_10 from '../../public/assets/img/project/project-inner-brand-6
 
 const portfolio_data = [
   {
+    id: 0,
+    thumb_img: thumb_img_0,
+    brand_logo: brand_logo_0,
+    job_title: 'Frontend and Backend',
+    title: <>Paradise</>,
+    des: <>Nextjs with Sanity.</>,
+    delay: '.5s',
+    category: 'Web',
+    filter_id: [
+      'all',
+      'Web',
+      'Nextjs',
+      'Sanity',
+      
+    ],
+    brand_logo_view: false
+  },
+   {
+    id: 1,
+    thumb_img: thumb_img_1a,
+    brand_logo: brand_logo_0,
+    job_title: 'Frontend and Backend',
+    title: <>myHotels</>,
+    des: <>Nextjs with Strapi.</>,
+    delay: '.5s',
+    category: 'Web',
+    filter_id: [
+      'all',
+      'Web',
+      'Nextjs',
+      'Sanity',
+      
+    ],
+    brand_logo_view: false
+  },
+  {
     id: 1,
     thumb_img: thumb_img_1,
     brand_logo: brand_logo_1,
-    job_title: 'Development, App Design',
+    job_title: 'Development Web 3 and App Development',
     title: <>Pai Social</>,
     des: <>Convert money to a len token. Website and App.</>,
     delay: '.5s',
-    category: 'Design Work',
+    category: 'Web3',
     filter_id: [
       'all',
       'Design Work',
@@ -49,7 +88,7 @@ const portfolio_data = [
     title: <>Brainbo</>,
     des: <>Chromotherapy and meditation app.</>,
     delay: '.5s',
-    category: 'Branding',
+    category: 'Apps',
     filter_id: [
       'all',
       'Design Work',
@@ -68,7 +107,7 @@ const portfolio_data = [
     title: <>Grupo Casa</>,
     des: <>Web3 App Real Estate and Blockchain.</>,
     delay: '.5s',
-    category: 'Design Work',
+    category: 'Web3',
     filter_id: [
       'all',
       'Design Work',
@@ -91,7 +130,7 @@ const portfolio_data = [
       </>
     ),
     delay: '.5s',
-    category: 'Development',
+    category: 'Apps',
     filter_id: [
       'all',
       'Design Work',
@@ -110,7 +149,7 @@ const portfolio_data = [
     title: <>Alic</>,
     des: <>Ecommerce Website.</>,
     delay: '.5s',
-    category: 'App Design',
+    category: 'Web',
     filter_id: [
       'all',
       'Design Work',
@@ -129,7 +168,7 @@ const portfolio_data = [
     title: <>Metaverse</>,
     des: <>Decentraland SDK and Modeling.</>,
     delay: '.5s',
-    category: 'Design Work',
+    category: 'Web3',
     filter_id: [
       'all',
       'Design Work',
@@ -148,7 +187,7 @@ const portfolio_data = [
     title: <>Bioefia</>,
     des: <>Bioefia System Website.</>,
     delay: '.5s',
-    category: 'App Design',
+    category: 'Web',
     filter_id: [
       'all',
       'Design Work',
@@ -167,7 +206,7 @@ const portfolio_data = [
     title: <>Eter Studio</>,
     des: <>Virtual world company Website.</>,
     delay: '.5s',
-    category: 'Development',
+    category: 'Web3',
     filter_id: [
       'all',
       'Design Work',
@@ -186,7 +225,7 @@ const portfolio_data = [
     title: <>Moevius</>,
     des: <>Music Trivia Game.</>,
     delay: '.5s',
-    category: 'App Design',
+    category: 'Apps',
     filter_id: [
       'all',
       'Design Work',
