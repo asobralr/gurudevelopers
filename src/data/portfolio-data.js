@@ -44,7 +44,7 @@ const portfolio_data = [
     slug: 'paradise'
   },
   {
-    id: 1,
+    id: 2,
     thumb_img: thumb_img_1a,
     brand_logo: brand_logo_0,
     job_title: 'Frontend and Backend',
@@ -59,7 +59,22 @@ const portfolio_data = [
     slug: 'myhotels'
   },
   {
-    id: 1,
+    id: 3,
+    thumb_img: thumb_img_2a,
+    brand_logo: brand_logo_1,
+    job_title: 'Development Shopify, Backend and Frontend',
+    title: <>ABCo</>,
+    des: <>MERN Application connected with Shopify.</>,
+    delay: '.5s',
+    category: 'Web',
+    filter_id: ['all', 'Shopify', 'Mongo', 'Development'],
+    brand_logo_view: false,
+    priorityHome: false,
+    link_site: 'https://abco.pairadido.com/',
+    slug: 'abco'
+  },
+  {
+    id: 4,
     thumb_img: thumb_img_2a,
     brand_logo: brand_logo_1,
     job_title: 'Development Shopify, Backend and Frontend',
@@ -71,19 +86,7 @@ const portfolio_data = [
     brand_logo_view: false
   },
   {
-    id: 1,
-    thumb_img: thumb_img_2a,
-    brand_logo: brand_logo_1,
-    job_title: 'Development Shopify, Backend and Frontend',
-    title: <>ABCo</>,
-    des: <>.</>,
-    delay: '.5s',
-    category: 'Web',
-    filter_id: ['all', 'Shopify', 'Mongo', 'Development'],
-    brand_logo_view: false
-  },
-  {
-    id: 2,
+    id: 5,
     thumb_img: thumb_img_1,
     brand_logo: brand_logo_1,
     job_title: 'Development Web 3 and App Development',
@@ -96,7 +99,7 @@ const portfolio_data = [
     priorityHome: true
   },
   {
-    id: 3,
+    id: 6,
     thumb_img: thumb_img_2,
     brand_logo: brand_logo_2,
     job_title: 'Mobile App Design',
@@ -115,7 +118,7 @@ const portfolio_data = [
     brand_logo_view: false
   },
   {
-    id: 4,
+    id: 7,
     thumb_img: thumb_img_3,
     brand_logo: brand_logo_3,
     job_title: 'Development, App Design',
@@ -134,7 +137,7 @@ const portfolio_data = [
     brand_logo_view: false
   },
   {
-    id: 5,
+    id: 8,
     thumb_img: thumb_img_4,
     brand_logo: brand_logo_4,
     job_title: 'Development, App Design',
@@ -159,7 +162,7 @@ const portfolio_data = [
     slug: 'aol-sky'
   },
   {
-    id: 6,
+    id: 9,
     thumb_img: thumb_img_10,
     brand_logo: brand_logo_10,
     job_title: 'Development, App Design',
@@ -178,7 +181,7 @@ const portfolio_data = [
     brand_logo_view: false
   },
   {
-    id: 7,
+    id: 10,
     thumb_img: thumb_img_6,
     brand_logo: brand_logo_6,
     job_title: 'Development, App Design',
@@ -197,7 +200,7 @@ const portfolio_data = [
     brand_logo_view: false
   },
   {
-    id: 8,
+    id: 11,
     thumb_img: thumb_img_7,
     brand_logo: brand_logo_7,
     job_title: 'Design Wok, App Design',
@@ -217,7 +220,7 @@ const portfolio_data = [
     priorityHome: true
   },
   {
-    id: 9,
+    id: 12,
     thumb_img: thumb_img_8,
     brand_logo: brand_logo_8,
     job_title: 'Development, App Design',
@@ -236,7 +239,7 @@ const portfolio_data = [
     brand_logo_view: false
   },
   {
-    id: 10,
+    id: 13,
     thumb_img: thumb_img_9,
     brand_logo: brand_logo_9,
     job_title: 'Development, App Design',

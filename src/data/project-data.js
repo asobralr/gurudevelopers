@@ -85,7 +85,8 @@ const project_data = [
     id: 4,
     img_1: project_img_4,
     img_2: project_brand_4,
-    title: 'Graphic Design',
+    title: 'ABCo',
+    header: 'Development Shopify, Backend and Frontend',
     description: (
       <>
         Excepteur sint occaecat cupidatat officia non proident, sunt in culpa
@@ -95,7 +96,8 @@ const project_data = [
     client_name: 'Anthropy Salim',
     budget: '200-250',
     budget_simble: 'k',
-    delay: '.9s'
+    delay: '.9s',
+    slug: 'abco'
   },
   {
     id: 5,
