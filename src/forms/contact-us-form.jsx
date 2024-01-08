@@ -33,7 +33,7 @@ const ContactUsForm = () => {
       },
       body: JSON.stringify({
         to: 'soporte@gurudevelopers.com.ar',
-        subject: 'SUBJECT!',
+        subject: 'Mensaje desde la web de Gurudevelopers',
         body: `${name} - ${email} - ${phone} - ${service} - ${message}`,
         htmlBody: `<div>
             Full Name: ${name}\n<br/><br/>Email: ${email}\n<br/><br/>Phone: ${phone}\n<br/><br/>Service: ${service}\n<br/><br/>Message: ${message}
