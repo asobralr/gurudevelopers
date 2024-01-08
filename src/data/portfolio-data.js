@@ -34,16 +34,11 @@ const portfolio_data = [
     des: <>Nextjs with Sanity.</>,
     delay: '.5s',
     category: 'Web',
-    filter_id: [
-      'all',
-      'Web',
-      'Nextjs',
-      'Sanity',
-      
-    ],
-    brand_logo_view: false
+    filter_id: ['all', 'Web', 'Nextjs', 'Sanity'],
+    brand_logo_view: false,
+    priorityHome: true
   },
-   {
+  {
     id: 1,
     thumb_img: thumb_img_1a,
     brand_logo: brand_logo_0,
@@ -52,13 +47,7 @@ const portfolio_data = [
     des: <>Nextjs with Strapi.</>,
     delay: '.5s',
     category: 'Web',
-    filter_id: [
-      'all',
-      'Web',
-      'Nextjs',
-      'Sanity',
-      
-    ],
+    filter_id: ['all', 'Web', 'Nextjs', 'Sanity'],
     brand_logo_view: false
   },
   {
@@ -78,7 +67,8 @@ const portfolio_data = [
       'Illusutration',
       'App Design'
     ],
-    brand_logo_view: false
+    brand_logo_view: false,
+    priorityHome: true
   },
   {
     id: 2,
@@ -196,7 +186,8 @@ const portfolio_data = [
       'Illusutration',
       'App Design'
     ],
-    brand_logo_view: false
+    brand_logo_view: false,
+    priorityHome: true
   },
   {
     id: 8,
