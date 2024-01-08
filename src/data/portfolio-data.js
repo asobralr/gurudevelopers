@@ -2,7 +2,10 @@
 import thumb_img_0 from '../../public/assets/img/project/paradise.png'
 import thumb_img_1a from '../../public/assets/img/project/myhotels.png'
 import thumb_img_1 from '../../public/assets/img/project/pai.png'
+import thumb_img_2a from '../../public/assets/img/project/ABCo.png'
+
 import thumb_img_2 from '../../public/assets/img/project/brainbo.png'
+
 import thumb_img_3 from '../../public/assets/img/project/gc_site.jpg'
 import thumb_img_4 from '../../public/assets/img/project/aolSKY.png'
 import thumb_img_5 from '../../public/assets/img/project/pithia.png'
@@ -63,6 +66,24 @@ const portfolio_data = [
   },
   {
     id: 1,
+    thumb_img: thumb_img_2a,
+    brand_logo: brand_logo_1,
+    job_title: 'Development Shopify, Backend and Frontend',
+    title: <>ABCo</>,
+    des: <>.</>,
+    delay: '.5s',
+    category: 'Web',
+    filter_id: [
+      'all',
+      'Shopify',
+      'Mongo',
+      'Development',
+      
+    ],
+    brand_logo_view: false
+  },
+  {
+    id: 1,
     thumb_img: thumb_img_1,
     brand_logo: brand_logo_1,
     job_title: 'Development Web 3 and App Development',
@@ -75,7 +96,6 @@ const portfolio_data = [
       'Design Work',
       'Branding',
       'Development',
-      'Illusutration',
       'App Design'
     ],
     brand_logo_view: false
