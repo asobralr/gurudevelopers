@@ -1,3 +1,4 @@
+'use client'
 import portfolio_data from '@/src/data/portfolio-data';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -16,7 +17,7 @@ const Portfolio = () => {
   
     const filterItems = (cateItem) => {
       setActiveCategory(cateItem);
-  
+        console.log({cateItem});
       if (cateItem === "All") {
         return setItems(portfolio_data);
       } else {
@@ -34,7 +35,7 @@ const Portfolio = () => {
                <div className="container">
                   <div className="row">
                      <div className="col-xl-12">
-                        <div className="portfolio-filter masonary-menu text-center mb-35">
+                        <div className="portfolio-filter masonary-menu text-center mb-35" style={{position:'relative',zIndex:1000}}>
                             {categories.map((cate, i) => (
                                 <button
                                 onClick={() => filterItems(cate)}
