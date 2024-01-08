@@ -11,21 +11,7 @@ const categories = [
 ]
 
 export const Projects = () => {
-  const [activeCategory, setActiveCategory] = useState('All')
-  const [items, setItems] = useState(portfolio_data)
-
-  const filterItems = cateItem => {
-    setActiveCategory(cateItem)
-
-    if (cateItem === 'All') {
-      return setItems(portfolio_data)
-    } else {
-      const findItems = portfolio_data.filter(findItem => {
-        return findItem.category == cateItem
-      })
-      setItems(findItems)
-    }
-  }
+  const [items, setItems] = useState(portfolio_data?.filter(el => el.priorityHome))
 
   return (
     <>
