@@ -22,7 +22,7 @@ const Contact = () => {
             <BreadcrumbTwo title={'Contact Us'} innertitle={'Contact'} />
             <div style={{marginTop:120}}><ContactFormArea /></div>
             <ContactInner />
-            <CtaArea />
+            {/* <CtaArea /> */}
           </main>
           <FooterFive style_contact={true} style_team={true} />
         </div>
