@@ -227,7 +227,7 @@ const testimonial_data = [
   // for home 05
 
   {
-    id: 14,
+    id: 13,
     author_img: author_img_2,
     brand_icon: brand_icon_2,
     name: 'Helen Stewart',
@@ -244,7 +244,7 @@ const testimonial_data = [
   },
 
   {
-    id: 21,
+    id: 14,
     author_img: author_img_9,
     brand_icon: brand_icon_9,
     name: 'Steven G.',
@@ -258,7 +258,7 @@ const testimonial_data = [
     )
   },
   {
-    id: 22,
+    id: 15,
     author_img: author_img_10,
     brand_icon: brand_icon_10,
     name: 'Gary M. Adams',
@@ -272,7 +272,7 @@ const testimonial_data = [
     )
   },
   {
-    id: 23,
+    id: 16,
     author_img: author_img_11,
     brand_icon: brand_icon_11,
     name: 'Edward G. Hall',
@@ -286,7 +286,7 @@ const testimonial_data = [
     )
   },
   {
-    id: 24,
+    id: 17,
     author_img: author_img_12,
     brand_icon: brand_icon_12,
     name: 'Santiago Facal',
