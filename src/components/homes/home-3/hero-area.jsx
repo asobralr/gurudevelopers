@@ -15,7 +15,7 @@ import Lottie from "lottie-react";
 import animationData from "../../../../public/assets/lottie/app2.json" ;
 
 const hero_content = { 
-   title_1: <>We <span>Love-</span></>,
+   title_1: <>We <span style={{marginRight:20}}>Love</span></>,
    title_2: " What we do.",
    info: <>We're a friendly group of developers who build impactful products and relationships</>,
    btn_1: "Live Damo",
@@ -60,18 +60,21 @@ const HeroArea = () => {
                      </div>
                      <div className="tp-hero-3-wrapper p-relative">
                         <div className="tp-hero-3-border-wrap d-none d-md-block">
-                           <span className="redius-shape-1"></span>
-                           <span className="redius-shape-2"></span>
-                           <span className="redius-shape-3"></span>
+                        {/* comentar styles para volver al inicial */}
+                           <span className="redius-shape-1" style={{maxHeight:300, maxWidth:300, top:0, left:150}}></span>
+                           <span className="redius-shape-2" style={{maxHeight:300, maxWidth:300, top:200 }}></span>
+                           <span className="redius-shape-3" style={{maxHeight:300, maxWidth:300, top:0, right:190}}></span>
                         </div>
                         <div className="tp-hero-3-main-thumb z-index-5">
 
                         </div>
                         
-                        <div className="tp-hero-3-main-thumb z-index-5">
+                        <div className="tp-hero-3-main-thumb z-index-5 lottie_home_hero">
+                            {/* comentar styles para volver al tamaño inicial */}
                             <Lottie
                               animationData={animationData}
                               className="flex justify-center items-center"
+                              style={{height:'50vh', margin: '0 auto'}} 
                               loop={true}
                               />
                         </div>

@@ -1,3 +1,4 @@
+'use client'
 import testimonial_data from '@/src/data/testimonial-data';
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
@@ -6,8 +7,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const testimonial_content = {
    bg_img: "/assets/img/testimonial/testi-bg-5-1.jpg",
-   sub_title: "CLIENTS OPINIONS",
-   title: <> Customer <span>Reviews</span></>,
+   sub_title: "CLIENTS & PROJECTS",
+   title: <>About Customer <span>Stories</span></>,
 }
 const { bg_img, sub_title, title } = testimonial_content
 
@@ -91,7 +92,7 @@ const TestimonialArea = () => {
                            modules={[Navigation, Scrollbar]}
                            className={`swiper-container testimonial-five-slider-active ${isDragged ? "dragged" : ""
                               }`}>
-                           {testimonial_data.slice(12, 25).map((item, i) =>
+                           {testimonial_data.map((item, i) =>
                               <SwiperSlide key={i} className="tp-testimonial-five-item">
                                  <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
                                     <div className="tp-testimonial-five-top-info d-flex align-items-center">

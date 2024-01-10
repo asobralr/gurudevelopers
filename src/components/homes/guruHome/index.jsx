@@ -16,7 +16,7 @@ import { Projects } from "./Projects";
 import RankArea from "../home/rank-area";
 import HeaderGuru from "@/src/layout/headers/header-guru";
 
-const HomeThree = () => {
+const HomeGuru = () => {
   return (
     <>
       <HeaderGuru /> {/* HEADER */}
@@ -27,7 +27,7 @@ const HomeThree = () => {
       {/* <CardArea /> */}
       {/* <SalesArea /> */}
       <Projects />
-      <RankArea />
+      {/* <RankArea /> */}
       <TestimonialArea />
       {/* <IntegrationArea /> */}
       {/* <BlogArea /> */}
@@ -37,4 +37,4 @@ const HomeThree = () => {
   );
 };
 
-export default HomeThree;
+export default HomeGuru;
