@@ -86,6 +86,7 @@ const portfolio_data = [
     delay: '.5s',
     category: 'Web',
     filter_id: ['all', 'Shopify', 'Mongo', 'Development'],
+    stack: ['Shopify', 'Mongo', 'Development'],
     brand_logo_view: false,
     priorityHome: false,
     link_site: 'https://abco.pairadido.com/',
@@ -100,7 +101,7 @@ const portfolio_data = [
     des: <>React Native App.</>,
     delay: '.5s',
     category: 'Apps',
-    filter_id: ['all'],
+    stack: ['Sql', 'Node'],
     brand_logo_view: false,
     priorityHome: true
   },
@@ -113,6 +114,7 @@ const portfolio_data = [
     des: <>Chromotherapy and meditation app.</>,
     delay: '.5s',
     category: 'Apps',
+    stack: ['Sql', 'Node'],
     filter_id: [
       'all',
       'Design Work',
@@ -132,11 +134,7 @@ const portfolio_data = [
     des: <>Web3 App Real Estate and Blockchain.</>,
     delay: '.5s',
     category: 'Apps',
-    filter_id: [
-      'all',
-      'Web3',
-      
-    ],
+    filter_id: ['all', 'Web3'],
     brand_logo_view: false
   },
   {
@@ -183,7 +181,7 @@ const portfolio_data = [
     ],
     brand_logo_view: false
   },
-  
+
   {
     id: 11,
     thumb_img: thumb_img_7,
@@ -204,7 +202,7 @@ const portfolio_data = [
     brand_logo_view: false,
     priorityHome: true
   },
-  
+
   {
     id: 13,
     thumb_img: thumb_img_9,

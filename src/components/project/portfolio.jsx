@@ -10,23 +10,54 @@ const categories = [
   'All',
   ...new Set(portfolio_data.map(item => item.category))
 ]
+
+const stack = [
+  { name: 'Mongo DB', filter: 'mongo' },
+  { name: 'SQL', filter: 'sql' },
+  { name: 'React Js', filter: 'react' },
+  { name: 'Next Js', filter: 'next' },
+  { name: 'Blockchain', filter: 'blockchain' },
+  { name: 'Solidity', filter: 'solidity' },
+  { name: 'Firebase', filter: 'Firebase' },
+  { name: 'Node Js', filter: 'node' }
+]
+
 const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState('All')
   const [items, setItems] = useState(portfolio_data)
   const searchParam = useSearchParams()
   const router = useRouter()
+  const [selectFilter, setSelectFilter] = useState('')
+  const [viewFilters, setViewFilters] = useState(false)
 
   const filterItems = cateItem => {
     setActiveCategory(cateItem)
-    console.log({ cateItem })
-    if (cateItem === 'All') {
-      return setItems(portfolio_data)
-    } else {
-      const findItems = portfolio_data.filter(findItem => {
-        return findItem.category == cateItem
-      })
-      setItems(findItems)
+  }
+
+  useEffect(() => {
+    let filter = portfolio_data;
+    if(activeCategory !== 'All'){
+        filter = filter.filter(findItem => {
+            return findItem.category == activeCategory
+        })
     }
+
+    if(selectFilter){
+      filter = filter.filter(findItem =>
+        findItem.stack?.some(el => selectFilter.filter?.toLowerCase() == el.toLowerCase())
+      )
+    }
+
+    setItems(filter)
+  },[activeCategory,selectFilter])
+
+  const filterSelect = techology => {
+    if (!techology) {
+      setSelectFilter('')
+    } else {
+      setSelectFilter(techology)
+    }
+    setViewFilters(false)
   }
 
   useEffect(() => {
@@ -37,11 +68,6 @@ const Portfolio = () => {
         el => el != 'All' && el.toLowerCase() == filter.toLowerCase()
       )
     ) {
-      filterItems(filter)
-      const findItems = portfolio_data.filter(findItem => {
-        return findItem.category.toLowerCase() == filter
-      })
-      setItems(findItems)
       setActiveCategory(filter)
     }
   }, [searchParam.get('filter')])
@@ -53,8 +79,8 @@ const Portfolio = () => {
           <div className='row'>
             <div className='col-xl-12'>
               <div
-                className='portfolio-filter masonary-menu text-center mb-35'
-                style={{ position: 'relative', zIndex: 1000 }}
+                className='portfolio-filter masonary-menu text-center mb-15'
+                style={{ position: 'relative', zIndex: 10 }}
               >
                 {categories.map((cate, i) => (
                   <button
@@ -70,10 +96,26 @@ const Portfolio = () => {
                   </button>
                 ))}
               </div>
+              <div className='select_portfolio'>
+                <div onClick={() => setViewFilters(!viewFilters)}>
+                  <h3>{selectFilter?.name || 'Select Stack'}</h3>
+                  <span>X</span>
+                </div>
+                {viewFilters && <ul>
+                  {selectFilter && (
+                    <li onClick={() => filterSelect('')}>Clear</li>
+                  )}
+                  {stack.map((item, i) => (
+                    <li key={item.filter} onClick={() => filterSelect(item)}>
+                      {item.name}
+                    </li>
+                  ))}
+                </ul>}
+              </div>
             </div>
           </div>
           <div className='row grid'>
-            {items.map((item, i) => (
+            {items.length > 0 ? items.map((item, i) => (
               <div
                 key={i}
                 className='col-xl-4 col-lg-6 col-md-6 col-sm-6 grid-item  cat1 cat4 cat3 cat5'
@@ -121,7 +163,9 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-            ))}
+            )) : (
+                <p style={{textAlign:'center', marginTop:20, fontSize:28}}>Not results...</p>
+            )}
           </div>
         </div>
       </div>
