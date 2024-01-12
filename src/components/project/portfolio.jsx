@@ -3,7 +3,7 @@ import portfolio_data from '@/src/data/portfolio-data'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import { useSearchParams } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 
 // data
 const categories = [
@@ -14,6 +14,7 @@ const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState('All')
   const [items, setItems] = useState(portfolio_data)
   const searchParam = useSearchParams()
+  const router = useRouter()
 
   const filterItems = cateItem => {
     setActiveCategory(cateItem)
@@ -77,6 +78,7 @@ const Portfolio = () => {
                 key={i}
                 className='col-xl-4 col-lg-6 col-md-6 col-sm-6 grid-item  cat1 cat4 cat3 cat5'
                 style={{ cursor: 'pointer' }}
+                onClick={() => router.push(`/project/${item.slug}`)}
               >
                 <div className='inner-project-item mb-30'>
                   <div
@@ -106,7 +108,7 @@ const Portfolio = () => {
                       <Link href='/project-details'>{item.title}</Link>
                     </h4>
                     <p>{item.des}</p>
-                    <div className='buttons_card_project'>
+                    {/* <div className='buttons_card_project'>
                       {item.slug && (
                         <Link href={`/project/${item.slug}`}>Details</Link>
                       )}
@@ -115,7 +117,7 @@ const Portfolio = () => {
                           Go Page
                         </Link>
                       )}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
