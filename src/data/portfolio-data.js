@@ -14,7 +14,7 @@ import thumb_img_5 from '../../public/assets/img/project/pithia.png'
 import thumb_img_6 from '../../public/assets/img/project/metaverse.jpeg'
 import thumb_img_7 from '../../public/assets/img/project/bioefia.png'
 import thumb_img_8 from '../../public/assets/img/project/eter.png'
-import thumb_img_9 from '../../public/assets/img/project/Moeviusimg.png'
+import thumb_img_9 from '../../public/assets/img/project/MoeviusImg.png'
 import thumb_img_10 from '../../public/assets/img/project/alic.png'
 import thumb_img_11 from '../../public/assets/img/project/Cinko.png'
 // brand logo import here
