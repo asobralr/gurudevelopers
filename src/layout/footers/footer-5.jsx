@@ -59,12 +59,12 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
 
     return (
         <>
-        <div className={`tp-footer__pl-pr ${style_contact && "pt-105"} ${bg_style?'grey-bg-2':''}`}>
+        <div className={`tp-footer__pl-pr ${style_contact && "pt-105"} ${bg_style?'#FFFFFF':''}`}>
                <div className={`tp-footer__area ${style_contact && "p-relative"} tp-footer__tp-border-bottom`}>
                   {style_contact && 
                      <>
-                     <div className="tp-footer__shape-1 d-none d-xxl-block">
-                        <Image src={shape_img_1} alt="theme-pure" />
+                     <div className="tp-footer__shape-1 d-none d-xxl-block" style={{top:-20, left:90}}>
+                        <Image src={shape_img_1} alt="theme-pure" style={{width:80}}/>
                      </div>
                      
                   </>

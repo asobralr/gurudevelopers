@@ -21,10 +21,10 @@ const our_service = [
   {
     id: 2,
     cls: 'space-left-2',
-    title: 'Services',
+    title: 'Stack',
     description: (
       <>
-        October 23th, 2022 <br /> Release Started
+        React, Next, <br /> Node, Express
       </>
     )
   },
@@ -80,7 +80,7 @@ const BreadcrumbEight = ({ project }) => {
               <div className='col-xl-3 col-lg-3 col-md-6 mb-40 pd-border-right'>
                 <div className={`breadcrumb__client-info space-left-2`}>
                   <span>Services</span>
-                  <p>{project.services}</p>
+                  <ul style={{color:'white'}}>{project.services}</ul>
                 </div>
               </div>
               <div className='col-xl-3 col-lg-3 col-md-6 mb-40 pd-border-right'>

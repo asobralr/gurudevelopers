@@ -31,8 +31,7 @@ const project_data = [
     header: 'Web Development',
     description: (
       <>
-        Excepteur sint occaecat cupidatat officia non proident, sunt in culpa
-        qui deserunt mollit anim id est laborum.
+        React, Next, <br /> Node, Express
       </>
     ),
     client_name: 'Phillip Anthropy',
@@ -42,7 +41,12 @@ const project_data = [
     slug: 'paradise',
     link_site: 'https://paradiseresort.com.au/',
     client: 'Talk Agency',
-    services: 'June, 2023 Release Started',
+    services: (
+      <>
+        <li>Express</li>
+        <li>Mongo</li>
+      </>
+    ),
     project_date: 'June, 2023 Release Started'
   },
   {
