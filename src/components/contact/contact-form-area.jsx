@@ -5,6 +5,9 @@ import React from 'react';
 
 import img from "../../../public/assets/img/contact/contact-icon-sm-4.png";
 import Image from 'next/image';
+import Lottie from "lottie-react";
+import animationData from "../../../public/assets/lottie/contactGirl.json" ;
+
 
 
 const contact_content  = {
@@ -24,21 +27,21 @@ const ContactFormArea = () => {
                   <div className="row gx-0">
                      <div className="col-xl-5 col-lg-6">
                         <div className="contact-form-left">
-                           <div className="contact-form-section-box pb-80">
+                           <div className="contact-form-section-box pb-10">
                               <h5 className="inner-section-subtitle">{sub_title}</h5>
                               <h4 className="tp-section-title pb-10">{tilte}</h4>
                               <p>{info}</p>
                            </div>
-                           <div className="contact-form-social-box p-relative">
-                              <div className="contact-form-social-item">
-                                 <Link href="#"><i className="fab fa-facebook-f"></i></Link>
-                                 <Link href="#"><i className="fab fa-twitter"></i></Link>
-                                 <Link href="#"><i className="fab fa-linkedin-in"></i></Link>
-                                 <Link href="#"><i className="fab fa-instagram"></i></Link>
-                              </div>
-                              <div className="contact-form-section-img">
-                                 <Image src={img} alt="theme-pure" />
-                              </div>
+                           <div className=" p-relative">
+                             
+                              
+                                 <Lottie
+                              animationData={animationData}
+                              className="flex justify-center items-center"
+                              style={{height:'40vh'}} 
+                              loop={true}
+                              />
+                              
                            </div>
                         </div>
                      </div>
