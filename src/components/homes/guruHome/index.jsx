@@ -32,7 +32,7 @@ const HomeGuru = () => {
       {/* <IntegrationArea /> */}
       {/* <BlogArea /> */}
       {/* <FooterThree /> */}
-      <FooterFive bg_style={false} />
+      <FooterFive bg_style={false} style_contact={true} style_team={true}/>
     </>
   );
 };
