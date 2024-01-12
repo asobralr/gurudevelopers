@@ -41,7 +41,7 @@ const project_data = [
     delay: '.9s',
     slug: 'paradise',
     link_site: 'https://paradiseresort.com.au/',
-    client: 'Talk Agency',
+    client: 'Atlantic 0',
     services: 'June, 2023 Release Started',
     project_date: 'June, 2023 Release Started'
   },
