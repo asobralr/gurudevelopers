@@ -21,7 +21,7 @@ const Contact = () => {
             {/* <OfficeLocation /> */}
             <BreadcrumbTwo title={'Contact Us'} innertitle={'Contact'} />
             <div style={{marginTop:120}}><ContactFormArea /></div>
-            <ContactInner />
+           
             {/* <CtaArea /> */}
           </main>
           <FooterFive style_contact={true} style_team={true} />

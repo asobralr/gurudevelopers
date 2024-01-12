@@ -142,10 +142,10 @@ const portfolio_data = [
     thumb_img: thumb_img_4,
     brand_logo: brand_logo_4,
     job_title: 'Development, App Design',
-    title: <>AOL SKY</>,
+    title: <>Teachers AOL</>,
     des: (
       <>
-        Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+        App for Art of living Teachers.
       </>
     ),
     delay: '.5s',
@@ -159,8 +159,7 @@ const portfolio_data = [
       'App Design'
     ],
     brand_logo_view: false,
-    link_site: 'www.google.com',
-    slug: 'aol-sky'
+    
   },
   {
     id: 9,
