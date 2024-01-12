@@ -61,23 +61,26 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
         <>
         <div className={`tp-footer__pl-pr ${style_contact && "pt-105"} ${bg_style?'#FFFFFF':''}`}>
                <div className={`tp-footer__area ${style_contact && "p-relative"} tp-footer__tp-border-bottom`}>
-                  {style_contact && 
+                  {/* {style_contact && 
                      <>
                      <div className="tp-footer__shape-1 d-none d-xxl-block" style={{top:-20, left:90}}>
                         <Image src={shape_img_1} alt="theme-pure" style={{width:80}}/>
                      </div>
                      
                   </>
-                  }
+                  } */}
                   <div className="container">
                      <div className="row">
 
                         <div className="col-xl-3 col-lg-3 col-md-6 pb-30  wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
                            <div className={`tp-footer__widget ${style_team && "tp-footer__input-inner"} footer-widget-3 footer-col-3-1`}>  
-                              <div className="tp-footer__logo mb-25" style={{marginTop:-19}}>
+                              <div className="tp-footer__logo mb-25" style={{marginTop:-19, position:'relative'}}>
                                  <Link href="/">
                                     <Image src={footer_logo} alt="" />
                                  </Link>
+                                 <div className="tp-footer__shape-1 d-none d-xxl-block" style={{top:-5, left:-85}}>
+                                    <Image src={shape_img_1} alt="theme-pure" style={{width:80}}/>
+                                </div>
                               </div>
                               <div className="tp-footer__contact-info">
                                  <p>{info}</p>
