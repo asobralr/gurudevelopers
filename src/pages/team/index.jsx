@@ -1,7 +1,7 @@
 import React from "react";
-import SEO from "../common/seo";
-import Team from "../components/team";
-import Wrapper from "../layout/wrapper";
+import SEO from "@/src/common/seo";
+import Wrapper from "@/src/layout/wrapper";
+import Team from "@/src/components/team";
 
 const index = () => {
   return (

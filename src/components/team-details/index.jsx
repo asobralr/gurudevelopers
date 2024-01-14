@@ -5,15 +5,15 @@ import React from "react";
 import CtaArea from "../contact/cta-area";
 import TeamDetailsArea from "./team-details-area";
 
-const TeamDetails = () => {
+const TeamDetails = ({member}) => {
   return (
     <>
       <HeaderSix />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbTwo title={"Team Single"} innertitle={" Team Member "} team_details={true} />
-            <TeamDetailsArea />
+            <BreadcrumbTwo title={member.name || 'Team Single'} innertitle={" Team "} team_details={true} nameMember={member.name}/>
+            <TeamDetailsArea member={member}/>
           </main>
           <FooterFive  style_contact={true} style_team={true} />
         </div>

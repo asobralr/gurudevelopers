@@ -15,7 +15,7 @@ import project from '../../../public/assets/lottie/project.json';
 import Lottie from "lottie-react";
 
 
-const BreadcrumbTwo = ({ title, innertitle, team_details, career_details }) => {
+const BreadcrumbTwo = ({ title, innertitle, team_details, career_details, nameMember }) => {
   const { animeRef } = useBreadcrumbTitleAnime();
   let subtitleRef = useRef(null)
 const lottieRef = 
@@ -62,7 +62,7 @@ const lottieRef =
                       <span className="dvdr">
                         <i className="fal fa-angle-right"></i>
                       </span>
-                      <span>Imdat Cimsit</span>
+                      <span>{nameMember}</span>
                     </>
                   )}
                   {career_details && (

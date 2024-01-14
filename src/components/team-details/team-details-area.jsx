@@ -10,38 +10,20 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 
-const team_details_content = {
-    name: "Imdat Cimsit",
-    feature_list: [
-        <>Cras sed felis eget velit aliquet. Morbi quis commodo odio</>,
-        <>Pharetra vel turpis nunc eget lorem dolor. Quam vulputate <br />dignissim</>,
-        <>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</>,
-    ],
-    expricence: [
-        {id: 1, title: "Role:", info: "Design"},
-        {id: 2, title: "Experience:", info: "14 years"},
-    ],
-    skill_title: "Superpower Skills:",
-    details_skill: ["Interaction Design", "User Research", "Figma"],
-    membur_about_title: "About Imdat Cimsit",
-    about_info_1: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- </>,
-    about_info_2: <>Cras sed felis eget velit aliquet. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh tellus molestie nunc non blandit massa enim nec. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Posuere morbi leo urna molestie.
-    </>,
-}
-const {
-    name, 
-    feature_list, 
-    expricence,  
-    skill_title, 
-    details_skill, 
-    membur_about_title, 
-    about_info_1, 
-    about_info_2
-}  = team_details_content
 
-const TeamDetailsArea = () => {
+const TeamDetailsArea = ({member}) => {
+    const {
+        name, 
+        feature_list, 
+        expricence,  
+        skill_title, 
+        details_skill, 
+        membur_about_title, 
+        about_info_1, 
+        about_info_2,
+        address
+    }  = member
+
     return (
         <>
             <div className="team-details-area pt-100 pb-100">
@@ -53,7 +35,7 @@ const TeamDetailsArea = () => {
                               <div className="col-xl-4 col-lg-4 col-md-4">
                                  <div className="team-details-img-box text-center">
                                     <div className="team-details-img">
-                                       <Image src={team_img} alt="theme-pure" />
+                                       <Image src={member.img || ''} alt="theme-pure" />
                                     </div>
                                     <div className="team-details-work-tag">
                                        <span> 
@@ -65,7 +47,7 @@ const TeamDetailsArea = () => {
                                        <span> 
                                           <LocationIconThree />
                                        </span>
-                                       <span>Newark, NJ</span>
+                                       <span>{address || '--'}</span>
                                     </div>
                                  </div>
                               </div>
