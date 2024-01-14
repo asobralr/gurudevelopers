@@ -288,7 +288,8 @@
 
 .select_portfolio{
     position:relative;
-    width:230px;
+    max-width:300px;
+    width: 100%;
     margin:0 auto;
     margin-bottom:20px;
 }
@@ -297,7 +298,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border:2px solid black;
+    border:2px solid #5F6168;
     padding:10px;
     border-radius: 8px;
     cursor: pointer !important;
@@ -307,6 +308,7 @@
 .select_portfolio h3{
     font-size:17px;
     margin-bottom: 0;
+    color: #5F6168;
 }
 
 .select_portfolio ul{
@@ -319,6 +321,7 @@
     z-index:1000;
     background-color: white;
     border-radius: 8px;
+    overflow: hidden;
 }
 
 .select_portfolio ul li{
@@ -329,12 +332,22 @@
 }
 
 .select_portfolio ul li:hover{
-    background-color: black;
+    background-color: #6865FF;
     color:white;
+}
+
+.button_clear_filter_project{
+    background-color: orangered !important;
+    color:white !important;
 }
 
 .select_portfolio ul li:last-child{
     border-bottom: none;
+}
+
+.active_filter_project{
+    background-color: #6865FF !important;
+    color:white !important;
 }
 
 .portfolio-filter{

@@ -13,14 +13,14 @@ const team_data = [
     id: 1,
     cls: 1,
     img: team_img_1,
-    name: 'Agus Sobral',
+    name: 'Agustín Sobral',
     job_title: 'Senior React Native Developer & Founder'
   },
   {
     id: 2,
     cls: 2,
     img: team_img_2,
-    name: 'Daro Mira',
+    name: 'Dario Mira',
     job_title: 'Senior React Native Developer & Founder'
   },
 
@@ -28,8 +28,8 @@ const team_data = [
     id: 3,
     cls: 2,
     img: gonza,
-    name: 'Gonza Robledo',
-    job_title: 'React Nextjs Developer'
+    name: 'Gonzalo Robledo',
+    job_title: '¿Full Stack? Web Developer'
   },
   {
     id: 4,
@@ -42,31 +42,30 @@ const team_data = [
     id: 5,
     cls: 2,
     img: hari,
-    name: 'Hari Solaas',
+    name: 'Harald Solaas',
     job_title: 'Senior Developer'
   },
   {
     id: 6,
     cls: 2,
     img: pedrito,
-    name: 'Pedrito Dorr',
+    name: 'Pedro Dorr',
     job_title: 'Solidity Developer'
   },
   {
     id: 7,
     cls: 2,
     img: dari,
-    name: 'Dari Hoyos',
+    name: 'Dario Hoyos',
     job_title: 'Full stack Developer'
   },
   {
     id: 8,
     cls: 2,
     img: maxi,
-    name: 'Maxi',
-    job_title: 'Full stack Developer'
-  },
-  
+    name: 'Maximiliano Albarran',
+    job_title: 'Frontend Web Developer'
+  }
 ]
 
 export default team_data

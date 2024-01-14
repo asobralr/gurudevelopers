@@ -12,7 +12,7 @@ const Team = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbTwo title={"Team Member"} innertitle={"Team Member"} />
+            <BreadcrumbTwo title={"Team Members"} innertitle={"Team Members"} />
             <TeamArea />
             
           </main>

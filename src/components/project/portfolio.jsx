@@ -3,7 +3,8 @@ import portfolio_data from '@/src/data/portfolio-data'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { usePathname, useRouter, useSearchParams } from 'next/navigation'
+import { FaChevronDown } from "react-icons/fa";
 
 // data
 const categories = [
@@ -27,6 +28,7 @@ const Portfolio = () => {
   const [items, setItems] = useState(portfolio_data)
   const searchParam = useSearchParams()
   const router = useRouter()
+  const pathname = usePathname()
   const [selectFilter, setSelectFilter] = useState('')
   const [viewFilters, setViewFilters] = useState(false)
 
@@ -36,9 +38,10 @@ const Portfolio = () => {
 
   useEffect(() => {
     let filter = portfolio_data;
+    console.log({41: filter})
     if(activeCategory !== 'All'){
         filter = filter.filter(findItem => {
-            return findItem.category == activeCategory
+            return findItem.category.toLowerCase() == activeCategory.toLowerCase()
         })
     }
 
@@ -62,15 +65,18 @@ const Portfolio = () => {
 
   useEffect(() => {
     const filter = searchParam.get('filter')
+
+    console.log({filter})
     if (
       filter &&
       categories.some(
         el => el != 'All' && el.toLowerCase() == filter.toLowerCase()
       )
     ) {
+        console.log('filter')
       setActiveCategory(filter)
     }
-  }, [searchParam.get('filter')])
+  }, [searchParam.get('filter'), pathname])
 
   return (
     <>
@@ -99,14 +105,14 @@ const Portfolio = () => {
               <div className='select_portfolio'>
                 <div onClick={() => setViewFilters(!viewFilters)}>
                   <h3>{selectFilter?.name || 'Select Stack'}</h3>
-                  <span>X</span>
+                  <FaChevronDown style={{transform: !viewFilters ? 'rotate(0)' : 'rotate(180deg)', transition: 'all 0.4s ease'}}/>
                 </div>
                 {viewFilters && <ul>
                   {selectFilter && (
-                    <li onClick={() => filterSelect('')}>Clear</li>
+                    <li onClick={() => filterSelect('')} className="button_clear_filter_project">Clear</li>
                   )}
                   {stack.map((item, i) => (
-                    <li key={item.filter} onClick={() => filterSelect(item)}>
+                    <li key={item.filter} onClick={() => filterSelect(item)} className={selectFilter.filter == item.filter ? 'active_filter_project' : ''}>
                       {item.name}
                     </li>
                   ))}

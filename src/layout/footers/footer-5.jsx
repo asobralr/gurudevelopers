@@ -44,9 +44,9 @@ const footer_content = {
                 // {name: "Login", link: "/login"},
                 // {name: "Register", link: "/register"},
                 // {name: "404 Not found", link: "/404"},
-                {name: "Project1", link: "/#"},
-                {name: "Project2", link: "/#"},
-                {name: "Project3", link: "/#"},
+                {name: "All", link: "/project"},
+                {name: "Apps", link: "/project?filter=apps"},
+                {name: "Web", link: "/project?filter=web"},
             ]
         },
 
