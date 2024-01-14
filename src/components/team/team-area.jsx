@@ -44,9 +44,9 @@ const {dataRef} = useMultipleAnime();
                     </h4>
                     <span>{item.job_title}</span>
                   </div>
-                  <div className="tp-team-social">
+                 {/*  <div className="tp-team-social">
                     <SocialLinksTwo />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}
