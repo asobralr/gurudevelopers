@@ -1,11 +1,11 @@
-import team_img_1 from '../../public/assets/img/team/agusbaby.jpeg' //team-4-1.png'
-import team_img_2 from '../../public/assets/img/team/darobaby.png' //team-4-2.png'
-import gonza from '../../public/assets/img/team/gonzababy.jpeg'
-import nadia from '../../public/assets/img/team/nadiababy.jpeg'
+import team_img_1 from '../../public/assets/img/team/AgusAvatar.png' //team-4-1.png'
+import team_img_2 from '../../public/assets/img/team/DaroAvatar.png' //team-4-2.png'
+import gonza from '../../public/assets/img/team/GonzaloAvatar.jpeg'
+import nadia from '../../public/assets/img/team/NadiaAvatarok.png'
 import hari from '../../public/assets/img/team/hariAvatarok.png'
-import pedrito from '../../public/assets/img/team/pedrobaby.jpeg'
+import pedrito from '../../public/assets/img/team/pedroAvatarok.png'
 import dari from '../../public/assets/img/team/DarioAvatar.png'
-import maxi from '../../public/assets/img/team/team-4-1.png'
+import maxi from '../../public/assets/img/team/MaxiAvatar.jpeg'
 
 const team_data = [
   // for home 04
