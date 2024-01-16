@@ -102,7 +102,7 @@ const Portfolio = () => {
                   </button>
                 ))}
               </div>
-              <div className='select_portfolio'>
+              {/* <div className='select_portfolio'>
                 <div onClick={() => setViewFilters(!viewFilters)}>
                   <h3>{selectFilter?.name || 'Select Stack'}</h3>
                   <FaChevronDown style={{transform: !viewFilters ? 'rotate(0)' : 'rotate(180deg)', transition: 'all 0.4s ease'}}/>
@@ -117,7 +117,7 @@ const Portfolio = () => {
                     </li>
                   ))}
                 </ul>}
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='row grid'>
