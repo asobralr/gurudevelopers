@@ -21,7 +21,12 @@ const TeamDetailsArea = ({member}) => {
         membur_about_title, 
         about_info_1, 
         about_info_2,
-        address
+        address,
+        facebook,
+        instagram,
+        linkedin,
+        twitter,
+        mail
     }  = member
 
     return (
@@ -37,13 +42,13 @@ const TeamDetailsArea = ({member}) => {
                                     <div className="team-details-img">
                                        <Image src={member.img || ''} alt="theme-pure" />
                                     </div>
-                                    <div className="team-details-work-tag">
+                                    {/* <div className="team-details-work-tag">
                                        <span> 
                                           <CheckboxIcon />
                                        </span>
                                        <span>Looking for Work</span>
-                                    </div>
-                                    <div className="team-details-work-location">
+                                    </div> */}
+                                    <div className="team-details-work-location" style={{marginTop:20}}>
                                        <span> 
                                           <LocationIconThree />
                                        </span>
@@ -56,20 +61,20 @@ const TeamDetailsArea = ({member}) => {
                                     <h3 className="team-details-client-title">{name}</h3>
                                     <div className="team-details-contact-box d-flex align-items-center">
                                        <div className="team-details-social-info">
-                                          <Link href="#"><i className="fab fa-facebook-f"></i></Link>
-                                          <Link href="#"><i className="fab fa-twitter"></i></Link>
-                                          <Link href="#"><i className="fab fa-linkedin-in"></i></Link>
-                                          <Link href="#"><i className="fab fa-instagram"></i></Link>
+                                          {facebook && <Link href={facebook} target="_blank"><i className="fab fa-facebook-f"></i></Link>}
+                                          {twitter && <Link href={twitter} target="_blank"><i className="fab fa-twitter"></i></Link>}
+                                          {linkedin && <Link href={linkedin} target="_blank"><i className="fab fa-linkedin-in"></i></Link>}
+                                          {instagram && <Link href={instagram} target="_blank"><i className="fab fa-instagram"></i></Link>}
                                        </div>
                                        <div className="team-details-personal-info">
-                                          <Link href="#"> 
+                                          {mail && <Link href={`mailto:${mail}`} target="_blank"> 
                                              <EmailFive />
                                              <span>Message</span>
-                                          </Link>
-                                          <Link href="#"> 
+                                          </Link>}
+                                          {/* <Link href="#"> 
                                              <ShareIcon />
                                              <span>Share</span>
-                                          </Link>
+                                          </Link> */}
                                        </div>
                                     </div>
                                     <div className="team-details-expricence-box d-flex align-items-center">

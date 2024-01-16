@@ -105,7 +105,14 @@ const team_data = [
       { id: 2, title: 'Experience:', info: '1 year' }
     ],
     skill_title: 'Superpower Skills:',
-    details_skill: ['React Js', 'Next Js', 'Mongo DB', 'Node Js', 'Express'],
+    details_skill: [
+      'React Js',
+      'Next Js',
+      'Mongo DB',
+      'Node Js',
+      'Express',
+      'Typescript'
+    ],
     about_info_1: <>Informacion sobre Gonzalo...</>,
     feature_list: [
       <>List item 1</>,
@@ -297,11 +304,23 @@ const team_data = [
       <>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</>
     ],
     expricence: [
-      { id: 1, title: 'Role:', info: 'Design' },
-      { id: 2, title: 'Experience:', info: '14 years' }
+      { id: 1, title: 'Role:', info: 'Frontend Web Developer' },
+      { id: 2, title: 'Experience:', info: '21 years' }
     ],
     skill_title: 'Superpower Skills:',
-    details_skill: ['Interaction Design', 'User Research', 'Figma'],
+    details_skill: [
+      'React JS',
+      'Next JS',
+      'Tailwind',
+      'Chakra ui',
+      'Typescript'
+    ],
+    facebook: '',
+    instagram: 'https://www.instagram.com/maxialbarran_/',
+    mail: 'maxialbarran1806@gmail.com',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/maximiliano-albarr%C3%A1n/',
+    address: 'Buenos Aires, ARG',
     about_info_1: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
