@@ -99,7 +99,7 @@ const team_data = [
     name: 'Gonzalo Robledo',
     job_title: '¿Full Stack? Web Developer',
     slug: 'gonzalo-robledo',
-
+    birthday: '1999-05-03', // YYYY-MM-DD format
     expricence: [
       { id: 1, title: 'Role:', info: '¿Full Stack? Developer' },
       { id: 2, title: 'Experience:', info: '1 year' }

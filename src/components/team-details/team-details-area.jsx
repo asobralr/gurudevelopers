@@ -26,6 +26,7 @@ const TeamDetailsArea = ({member}) => {
         instagram,
         linkedin,
         twitter,
+        birthday,
         mail
     }  = member
 
@@ -48,12 +49,16 @@ const TeamDetailsArea = ({member}) => {
                                        </span>
                                        <span>Looking for Work</span>
                                     </div> */}
+                                   
                                     <div className="team-details-work-location" style={{marginTop:20}}>
                                        <span> 
                                           <LocationIconThree />
                                        </span>
                                        <span>{address || '--'}</span>
                                     </div>
+                                    {birthday && <div className="team-details-work-location" style={{marginTop:10}}>
+                                        {calculateAge(birthday)} Years
+                                    </div>}
                                  </div>
                               </div>
                               <div className="col-xl-8 col-lg-8 col-md-8">
@@ -118,3 +123,12 @@ const TeamDetailsArea = ({member}) => {
 };
 
 export default TeamDetailsArea;
+
+const calculateAge = (birthday) => {
+    const today = new Date();
+    const newDate = new Date(birthday);
+    const date = today - newDate;
+    
+    const years = new Date(date).getFullYear() - 1970;
+    return years
+}
