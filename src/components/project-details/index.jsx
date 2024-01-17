@@ -7,7 +7,6 @@ import ProjectDetailsArea from "./project-details-area";
 import ThumbArea from "./thumb-area";
 
 const ProjectDetails = ({project}) => {
-    console.log({project})
   return (
     <>
       <HeaderSix />
@@ -15,7 +14,7 @@ const ProjectDetails = ({project}) => {
         <div id="smooth-content">
           <main>
             <BreadcrumbEight project={project}/>
-            <ThumbArea />
+            <ThumbArea video={project.video} image={project.main_image}/>
             <ProjectDetailsArea />
             <ProjectArea />
           </main>

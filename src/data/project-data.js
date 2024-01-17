@@ -47,7 +47,9 @@ const project_data = [
         <li>Mongo</li>
       </>
     ),
-    project_date: 'June, 2023 Release Started'
+    project_date: 'June, 2023 Release Started',
+    video: '/assets/videos/brainbo.mp4',
+    main_image: ''
   },
   {
     id: 2,
@@ -117,7 +119,8 @@ const project_data = [
     client_name: 'Phillip Anthropy',
     budget: '200-250',
     budget_simble: 'k',
-    delay: '.9s'
+    delay: '.9s',
+    slug: 'muckup'
   },
   {
     id: 6,
@@ -133,7 +136,8 @@ const project_data = [
     client_name: 'Anthropy Phillip',
     budget: '200-250',
     budget_simble: 'k',
-    delay: '.5s'
+    delay: '.5s',
+    slug: '3d'
   },
   {
     id: 7,
@@ -149,7 +153,8 @@ const project_data = [
     client_name: 'Phillip Anthropy',
     budget: '200-250',
     budget_simble: 'k',
-    delay: '.7s'
+    delay: '.7s',
+    slug: 'app'
   },
   {
     id: 8,
@@ -165,7 +170,8 @@ const project_data = [
     client_name: 'Anthropy Salim',
     budget: '200-250',
     budget_simble: 'k',
-    delay: '.9s'
+    delay: '.9s',
+    slug: 'graphic'
   }
 ]
 export default project_data

@@ -527,8 +527,42 @@
     }
 }
   
-  
+.container_video{
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    max-width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-  
-  
-  
+.background_video{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.background_video > *{
+    font-size:100px;
+    color:#03357a;
+    cursor: pointer;
+}
+
+.container_video:hover .background_video{
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.disabled_video{
+    visibility: visible;
+    opacity: 1;
+}
