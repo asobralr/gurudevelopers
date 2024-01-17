@@ -566,3 +566,14 @@
     visibility: visible;
     opacity: 1;
 }
+
+.enabled_video{
+    background-color: inherit !important;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.enabled_video > *{
+    font-size:40px;
+    margin:15px 15px 0 0;
+}

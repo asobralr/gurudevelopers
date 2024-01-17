@@ -45,7 +45,7 @@ const ThumbArea = ({ video, image }) => {
         <div className='col-12'>
           <div className='pd-thumb container_video'>
             <video src={video} width='100%' ref={videoRef} onEnded={handleVideoEnded}/>
-            <div className={`${!isPlaying ? 'disabled_video' : ''} background_video`} >
+            <div className={`${!isPlaying ? 'disabled_video' : 'enabled_video'} background_video`} >
                 {!isPlaying ? <FaPlayCircle onClick={handleComponentClick}/> : <FaCirclePause onClick={handleComponentClick}/>}
             </div>
           </div>
