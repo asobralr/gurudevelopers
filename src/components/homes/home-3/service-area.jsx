@@ -35,10 +35,10 @@ const ServiceArea = () => {
                 <h3 className="tp-section-title-3 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".3s">
                   {title}
                 </h3>
-                <Link className="tp-btn-blue-lg tp-btn-hover mb-10 alt-color-black wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s" href="/service-details">
+                {/* <Link className="tp-btn-blue-lg tp-btn-hover mb-10 alt-color-black wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s" href="/service-details">
                   <span>{btn_text}</span>
                   <b></b>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -52,14 +52,14 @@ const ServiceArea = () => {
                 <div className="tp-service-3-content">
                   <span>{service_title}</span>
                   <h4 className="tp-service-3-title-sm">
-                    <Link href="/service-details">{service_info}</Link>
+                    {service_info}
                   </h4>
                 </div>
-                <div className="tp-service-3-btn">
+                {/* <div className="tp-service-3-btn">
                   <Link className="tp-btn-white-solid" href="/service-details">
                     Learn More
                   </Link>
-                </div>
+                </div> */}
                 <div className="tp-service-3-shape">
                   <Image src={service_img_2} alt="theme-pure" />
                 </div>
@@ -75,11 +75,11 @@ const ServiceArea = () => {
                     <h3 className="tp-service-sm-title">
                       <Link href="/service-details">{item.description} </Link>
                     </h3>
-                    <div className="tp-service-sm-link">
+                    {/* <div className="tp-service-sm-link">
                       <Link href="/service-details">
                         Learn More <i className="far fa-arrow-right"></i>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

@@ -14,7 +14,7 @@ const ProjectDetails = ({project}) => {
         <div id="smooth-content">
           <main>
             <BreadcrumbEight project={project}/>
-            <ThumbArea video={project.video} image={project.main_image}/>
+            <ThumbArea video={project?.video} image={project.main_image}/>
             <ProjectDetailsArea />
             <ProjectArea />
           </main>

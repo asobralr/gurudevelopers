@@ -27,38 +27,40 @@ export const Projects = () => {
           </h3>
           <div className='row grid'>
             {items?.slice(0, 3).map((item, i) => (
-              <div
-                key={i}
-                className='col-xl-4 col-lg-6 col-md-6 col-sm-6 grid-item  cat1 cat4 cat3 cat5'
-              >
-                <div className='inner-project-item mb-30'>
                   <div
-                    className='inner-project-img fix p-relative'
-                    style={{ height: 320 }}
+                    key={i}
+                    className='col-xl-4 col-lg-6 col-md-6 col-sm-6 grid-item  cat1 cat4 cat3 cat5'
                   >
-                    <Image
-                      className='w-100'
-                      src={item.thumb_img}
-                      alt='theme-pure'
-                      style={{ height: '100%', objectFit: 'cover' }}
-                    />
-                    {item.brand_logo_view && (
-                      <div className='inner-project-brand'>
-                        <Image src={item.brand_logo} alt='theme-pure' />
+                    <Link href={'/project/'+item.slug}>
+                    <div className='inner-project-item mb-30'>
+                      <div
+                        className='inner-project-img fix p-relative'
+                        style={{ height: 320 }}
+                      >
+                        <Image
+                          className='w-100'
+                          src={item.thumb_img}
+                          alt='theme-pure'
+                          style={{ height: '100%', objectFit: 'cover' }}
+                        />
+                        {item.brand_logo_view && (
+                          <div className='inner-project-brand'>
+                            <Image src={item.brand_logo} alt='theme-pure' />
+                          </div>
+                        )}
                       </div>
-                    )}
+                      <div className='inner-project-content'>
+                        <span className='inner-project-category-title'>
+                          {item.job_title}
+                        </span>
+                        <h4 className='inner-project-title'>
+                          <Link href='/project-details'>{item.title}</Link>
+                        </h4>
+                        <p>{item.des}</p>
+                      </div>
+                    </div>
+                    </Link>
                   </div>
-                  <div className='inner-project-content'>
-                    <span className='inner-project-category-title'>
-                      {item.job_title}
-                    </span>
-                    <h4 className='inner-project-title'>
-                      <Link href='/project-details'>{item.title}</Link>
-                    </h4>
-                    <p>{item.des}</p>
-                  </div>
-                </div>
-              </div>
             ))}
           </div>
           <div className='homeProjects_viewMore'>
@@ -67,6 +69,7 @@ export const Projects = () => {
               className='tp-btn-blue-lg tp-btn-hover mb-10 alt-color-black wow tpfadeRight'
               data-wow-duration='.9s'
               data-wow-delay='.5s'
+              style={{backgroundColor:'#03357a'}}
             >
               <span>View More</span>
               <b></b>

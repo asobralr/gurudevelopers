@@ -1,39 +1,40 @@
-import React, { useState, useEffect } from "react";
-import useSticky from "./use-sticky";
+import React, { useState, useEffect } from 'react'
+import useSticky from './use-sticky'
 
 const ScrollToTop = () => {
-  const { sticky } = useSticky();
+  const { sticky } = useSticky()
 
-  const [showScroll, setShowScroll] = useState(false);
+  const [showScroll, setShowScroll] = useState(false)
 
   const checkScrollTop = () => {
     if (!showScroll && window.pageYOffset > 400) {
-      setShowScroll(true);
+      setShowScroll(true)
     } else if (showScroll && window.pageYOffset <= 400) {
-      setShowScroll(false);
+      setShowScroll(false)
     }
-  };
+  }
 
   const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   useEffect(() => {
-    window.addEventListener("scroll", checkScrollTop);
-    return () => window.removeEventListener("scroll", checkScrollTop);
-  }, []);
+    window.addEventListener('scroll', checkScrollTop)
+    return () => window.removeEventListener('scroll', checkScrollTop)
+  }, [])
 
   return (
     <>
       <button
         onClick={scrollTop}
-        className={`scroll-top scroll-to-target ${sticky ? "open" : ""}`}
-        data-target="html"
+        className={`scroll-top scroll-to-target ${sticky ? 'open' : ''}`}
+        data-target='html'
+        style={{ backgroundColor: '#03357a' }}
       >
-         <i className="far fa-angle-double-up"></i>
+        <i className='far fa-angle-double-up'></i>
       </button>
     </>
-  );
-};
+  )
+}
 
-export default ScrollToTop;
+export default ScrollToTop
