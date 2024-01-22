@@ -36,7 +36,7 @@ const portfolio_data = [
     thumb_img: thumb_img_0,
     brand_logo: brand_logo_0,
     job_title: "Case study",
-    title: <>Resort Website</>,
+    title: <>Booking Website</>,
     des: <>Dynamic website with NextJS and Sanity.</>,
     delay: ".5s",
     category: "Web",

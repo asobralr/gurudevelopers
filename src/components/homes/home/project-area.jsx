@@ -1,53 +1,53 @@
-import project_data from '@/src/data/project-data';
-import RightArrow from '@/src/svg/right-arrow';
-import Image from 'next/image';
-import Link from 'next/link';
-import React, { useState } from 'react';
-import { Navigation, Scrollbar } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import project_data from "@/src/data/project-data";
+import RightArrow from "@/src/svg/right-arrow";
+import Image from "next/image";
+import Link from "next/link";
+import React, { useState } from "react";
+import { Navigation, Scrollbar } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const setting = {
-   loop: true,
-   slidesPerView: 3,
-   centeredSlides: true,
-   spaceBetween: 30,
-   breakpoints: {
-      '1200': {
-         slidesPerView: 3,
-      },
-      '992': {
-         slidesPerView: 1,
-      },
-      '768': {
-         slidesPerView: 1,
-      },
-      '576': {
-         slidesPerView: 1,
-      },
-      '0': {
-         slidesPerView: 1,
-      },
-   },
+  loop: true,
+  slidesPerView: 3,
+  centeredSlides: true,
+  spaceBetween: 30,
+  breakpoints: {
+    1200: {
+      slidesPerView: 3,
+    },
+    992: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 1,
+    },
+    576: {
+      slidesPerView: 1,
+    },
+    0: {
+      slidesPerView: 1,
+    },
+  },
 
-   scrollbar: {
-      el: ".tp-scrollbar",
-      clickable: true,
-   },
-}
+  scrollbar: {
+    el: ".tp-scrollbar",
+    clickable: true,
+  },
+};
 
 const ProjectArea = () => {
-   const [isDragged, setIsDragged] = useState(false);
+  const [isDragged, setIsDragged] = useState(false);
 
-   const handleSlideChange = () => {
-      setIsDragged(true);
-   };
+  const handleSlideChange = () => {
+    setIsDragged(true);
+  };
 
-   const handleTransitionEnd = () => {
-      setIsDragged(false);
-   };
-   return (
-      <>
-         <div className="tp-project__area grey-bg pt-50 pb-110 fix">
+  const handleTransitionEnd = () => {
+    setIsDragged(false);
+  };
+  return (
+    <>
+      {/* <div className="tp-project__area grey-bg pt-50 pb-110 fix">
             <div className="container">
                <div className="row">
                   <div className="col-xl-6">
@@ -116,9 +116,9 @@ const ProjectArea = () => {
                   </div>
                </div>
             </div>
-         </div>
-      </>
-   );
+         </div> */}
+    </>
+  );
 };
 
 export default ProjectArea;

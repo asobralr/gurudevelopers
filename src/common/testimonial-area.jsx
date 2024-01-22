@@ -10,28 +10,6 @@ const testimonials = testimonial_data
 const setting = {
   loop: true,
   slidesPerView: 1,
-  // spaceBetween: 30,
-  // breakpoints: {
-  //    '1200': {
-  //       slidesPerView: 4,
-  //    },
-  //    '992': {
-  //       slidesPerView: 3,
-  //    },
-  //    '768': {
-  //       slidesPerView: 3,
-  //    },
-  //    '576': {
-  //       slidesPerView: 1,
-  //    },
-  //    '0': {
-  //       slidesPerView: 1,
-  //    },
-  // },
-  // scrollbar: {
-  //    el: ".tp-scrollbar",
-  //    clickable: true,
-  // },
   navigation: {
     nextEl: '.next_arrow',
     prevEl: '.prev_arrow'
