@@ -9,18 +9,16 @@ import Image from "next/image";
 const service_content = {
   title: (
     <>
-      Services we offer <br /> That <span>Handles it All.</span>
+      We provide customized services to
+      <br />
+      <span>Meet Your Needs.</span>
     </>
   ),
   btn_text: <>See All Services</>,
 
   bg_img: "/assets/img/service/service-3-bg.png",
   service_title: "Mobile App Development",
-  service_info: (
-    <>
-      At Gurudevelopers, <br /> We follow best mobile practices and latest technologies like React Native to make sure that your customers can quickly connect to your app and website from any device.{" "}
-    </>
-  ),
+  service_info: <>We follow best mobile practices and latest technologies like React Native to make sure that your customers can quickly connect to your app and website from any device. </>,
 };
 const { title, btn_text, bg_img, service_title, service_info } = service_content;
 
@@ -51,9 +49,7 @@ const ServiceArea = () => {
                 </div>
                 <div className="tp-service-3-content">
                   <span>{service_title}</span>
-                  <h4 className="tp-service-3-title-sm">
-                    {service_info}
-                  </h4>
+                  <h4 className="tp-service-3-title-sm">{service_info}</h4>
                 </div>
                 {/* <div className="tp-service-3-btn">
                   <Link className="tp-btn-white-solid" href="/service-details">
