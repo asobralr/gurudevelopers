@@ -305,7 +305,7 @@ const team_data = [
     ],
     expricence: [
       { id: 1, title: 'Role:', info: 'Frontend Web Developer' },
-      { id: 2, title: 'Experience:', info: '21 years' }
+      { id: 2, title: 'Experience:', info: '3 months' }
     ],
     skill_title: 'Superpower Skills:',
     details_skill: [

@@ -60,12 +60,44 @@ const testimonial_data = [
     title: 'CTO ',
     description: (
       <>
-        “ Highly recommend Gurudevelopers - they has great skills in IOS development area. Will gladly work again when such need arises.”
+        “ Highly recommend Gurudevelopers - they has great skills in IOS
+        development area. Will gladly work again when such need arises.”
       </>
     )
   },
   {
-    id: 15,
+    id: 17,
+    author_img: andres,
+    brand_icon: gds,
+    name: 'Andres Hernandez',
+    title: 'CEO ',
+    description: (
+      <>
+        “As the Director of GDS, I have had the privilege of working on several
+        projects . Their performance has always been extraordinary, not only in
+        technical aspects but also in his interpersonal skills with peers,
+        superiors, and subordinates. Additionally, their ability to lead and
+        motivate stood out. They are reliable, honest, proactive, and possesses
+        special abilities to thrive successfully in multidisciplinary work
+        teams.”
+      </>
+    )
+  },
+  {
+    id: 18,
+    author_img: veronica,
+    brand_icon: infinite,
+    name: 'Veronica Quiñonez',
+    title: 'Office Manager',
+    description: (
+      <>
+        “A pleasure to work with Agustín and Darío, good communication and on
+        time delivery. Thanks guys!”
+      </>
+    )
+  },
+  {
+    id: 19,
     author_img: author_img_12,
     brand_icon: brand_icon_12,
     name: 'Santiago Facal',
@@ -83,7 +115,7 @@ const testimonial_data = [
     )
   },
   {
-    id: 16,
+    id: 20,
     author_img: author_img_2,
     brand_icon: brand_icon_2,
     name: 'Helen Stewart',
@@ -99,26 +131,46 @@ const testimonial_data = [
     )
   },
   {
-    id: 17,
+    id: 21,
+    author_img: eugene,
+    brand_icon: islandpay,
+    name: 'Eugene Luzgin',
+    title: 'CTO ',
+    description: (
+      <>
+        “ Highly recommend Gurudevelopers - they has great skills in IOS
+        development area. Will gladly work again when such need arises.”
+      </>
+    )
+  },
+  {
+    id: 22,
     author_img: andres,
     brand_icon: gds,
     name: 'Andres Hernandez',
     title: 'CEO ',
     description: (
       <>
-        “As the Director of GDS, I have had the privilege of working on several projects . Their performance has always been extraordinary, not only in technical aspects but also in his interpersonal skills with peers, superiors, and subordinates. Additionally, their ability to lead and motivate stood out. They are reliable, honest, proactive, and possesses special abilities to thrive successfully in multidisciplinary work teams.”
+        “As the Director of GDS, I have had the privilege of working on several
+        projects . Their performance has always been extraordinary, not only in
+        technical aspects but also in his interpersonal skills with peers,
+        superiors, and subordinates. Additionally, their ability to lead and
+        motivate stood out. They are reliable, honest, proactive, and possesses
+        special abilities to thrive successfully in multidisciplinary work
+        teams.”
       </>
     )
   },
   {
-    id: 18,
+    id: 23,
     author_img: veronica,
     brand_icon: infinite,
     name: 'Veronica Quiñonez',
     title: 'Office Manager',
     description: (
       <>
-        “A pleasure to work with Agustín and Darío, good communication and on time delivery. Thanks guys!”
+        “A pleasure to work with Agustín and Darío, good communication and on
+        time delivery. Thanks guys!”
       </>
     )
   }
