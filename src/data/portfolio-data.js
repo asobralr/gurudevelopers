@@ -117,6 +117,7 @@ const portfolio_data = [
     stack: ["Sql", "Node"],
     filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design"],
     brand_logo_view: false,
+    slug: "brainbo",
   },
   {
     id: 7,

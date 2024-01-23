@@ -6,19 +6,19 @@ import ProjectArea from "../homes/home/project-area";
 import ProjectDetailsArea from "./project-details-area";
 import ThumbArea from "./thumb-area";
 
-const ProjectDetails = ({project}) => {
+const ProjectDetails = ({ project }) => {
   return (
     <>
       <HeaderSix />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbEight project={project}/>
-            <ThumbArea video={project?.video} image={project.main_image}/>
-            <ProjectDetailsArea />
+            <BreadcrumbEight project={project} />
+            <ThumbArea video={project?.video} image={project.main_image} />
+            <ProjectDetailsArea project={project} />
             <ProjectArea />
           </main>
-          <FooterFive style_contact={true}  style_team={true} bg_style={false} />
+          <FooterFive style_contact={true} style_team={true} bg_style={false} />
         </div>
       </div>
     </>

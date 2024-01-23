@@ -45,7 +45,7 @@ const project_details_content = {
 };
 const { solution_title, des_1, des_2 } = project_details_content;
 
-const ProjectDetailsArea = () => {
+const ProjectDetailsArea = ({ project }) => {
   useIsomorphicLayoutEffect(() => {
     ScrollTrigger.create({
       trigger: ".social-box-pin",
@@ -75,21 +75,18 @@ const ProjectDetailsArea = () => {
               </div> */}
             </div>
             <div className="col-xl-10 col-lg-10 ">
-              <div className="pd-details-wrapper">
-                {project_details_data.map((item, i) => (
-                  <div key={i} className={`pd-details-${item.cls}`}>
-                    <h4 className="pd-details-title">{item.title}</h4>
-                    {item.feture_list && (
-                      <ul>
-                        {item.feture_list?.map((list, i) => (
-                          <li key={i}>{list}</li>
-                        ))}
-                      </ul>
-                    )}
+              {project?.features && (
+                <div className="pd-details-wrapper">
+                  <h4 className="pd-details-title">Features</h4>
+                  <div className={`pd-details-overview`}>
+                    <ul>
+                      {project.features?.map((feature, i) => (
+                        <li key={i}>{feature}</li>
+                      ))}
+                    </ul>
                     {/* <p>{item.description}</p> */}
                   </div>
-                ))}
-                {/* <div className="pd-details-solution">
+                  {/* <div className="pd-details-solution">
                   <div className="pd-details-solution-img-box d-flex align-items-center">
                     <div className="pd-details-solution-img mr-30">
                       <Image src={solution_1} alt="theme-pure" />
@@ -112,7 +109,8 @@ const ProjectDetailsArea = () => {
                     </div>
                   </div>
                 </div> */}
-              </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
