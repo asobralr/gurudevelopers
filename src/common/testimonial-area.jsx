@@ -52,6 +52,7 @@ export default function TestimonialArea ({ background = false }) {
                   <div className='author'>
                     <h3 style={{color: background ? '#FFFFFF' : ''}}>{el.name}</h3>
                     <span style={{color: background ? '#F0F0F0' : ''}}>{el.title}</span>
+                    <Image src={el.brand_icon} alt="theme-pure" width={100} style={{marginTop:15}}/>
                   </div>
                 </div>
               </SwiperSlide>
