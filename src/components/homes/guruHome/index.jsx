@@ -15,6 +15,7 @@ import FooterFive from "@/src/layout/footers/footer-5";
 import { Projects } from "./Projects";
 import RankArea from "../home/rank-area";
 import HeaderGuru from "@/src/layout/headers/header-guru";
+import { FooterGuru } from "@/src/layout/footers/footer-guru";
 
 const HomeGuru = () => {
   return (
@@ -33,6 +34,7 @@ const HomeGuru = () => {
       {/* <BlogArea /> */}
       {/* <FooterThree /> */}
       <FooterFive bg_style={false} style_contact={true} style_team={true}/>
+      {/* <FooterGuru /> */}
     </>
   );
 };

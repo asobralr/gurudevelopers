@@ -1,10 +1,6 @@
 import ContactUsForm from '@/src/forms/contact-us-form';
 import SendIcon from '@/src/svg/send-icon';
-import Link from 'next/link';
 import React from 'react';
-
-import img from "../../../public/assets/img/contact/contact-icon-sm-4.png";
-import Image from 'next/image';
 import Lottie from "lottie-react";
 import animationData from "../../../public/assets/lottie/contactGirl.json" ;
 

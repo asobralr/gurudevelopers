@@ -952,3 +952,29 @@
     }
 }
 
+.footer_guru{
+    background-color: #03357a;
+    padding:60px 0;
+}
+
+.footer_guru > div{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+
+.footer_guru > div *{
+    color:white;
+}
+
+.footer_guru nav ul{
+    list-style: none;
+    display: flex;
+    gap:35px;
+    align-items: center;
+    margin-top:5px
+}
+
+.footer_guru__image img{
+    width: 200px;
+}
