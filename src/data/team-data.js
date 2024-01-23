@@ -24,7 +24,7 @@ const team_data = [
       { id: 2, title: "Experience:", info: "16 years" },
     ],
     skill_title: "Superpower Skills:",
-    details_skill: ["Technical leader", "Postiive Mind", "Senior React Native"],
+    details_skill: ["Technical leader", "Positive Mindset", "Senior React Native"],
    about_info_1: (
       <>
        Gurudevelopers is a way to live my life learning new techincal features and work with my friends.I'm an experienced app developer, using the React Native framework. 
