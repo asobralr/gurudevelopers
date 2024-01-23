@@ -93,13 +93,22 @@ const project_data = [
     id: 5,
     img_1: project_img_5,
     img_2: project_brand_5,
-    title: "Muckup Design",
+    title: "Moevius",
     description: <>Excepteur sint occaecat cupidatat officia non proident, sunt in culpa qui deserunt mollit anim id est laborum.</>,
-    client_name: "Phillip Anthropy",
+    client: "Riszer Software",
     budget: "200-250",
     budget_simble: "k",
     delay: ".9s",
-    slug: "muckup",
+    services: (
+      <>
+        <li>React Native</li>
+        <li>Firebase</li>
+      </>
+    ),
+    status: "Published. Deprecated by client.",
+    slug: "moevius",
+    video: "/assets/videos/moevius.mp4",
+    features: ["In-App purchases", "Customized animations", "In-app advertisement with AdMob", "Challenge mode using Firebase Realtime Database", "User autentication"],
   },
   {
     id: 6,

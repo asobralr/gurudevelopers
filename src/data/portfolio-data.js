@@ -181,6 +181,7 @@ const portfolio_data = [
     category: "Apps",
     filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design"],
     brand_logo_view: false,
+    slug: "moevius",
   },
 ];
 export default portfolio_data;
