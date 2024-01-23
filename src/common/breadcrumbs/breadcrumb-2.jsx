@@ -12,6 +12,7 @@ import shape_4  from "../../../public/assets/img/breadcrumb/breadcrumb-sub-1.png
 import team from '../../../public/assets/lottie/team.json';
 import contact from '../../../public/assets/lottie/contact.json';
 import project from '../../../public/assets/lottie/project.json';
+import teamDetail from '../../../public/assets/lottie/teamdetail.json';
 import Lottie from "lottie-react";
 
 
@@ -19,9 +20,10 @@ const BreadcrumbTwo = ({ title, innertitle, team_details, career_details, nameMe
   const { animeRef } = useBreadcrumbTitleAnime();
   let subtitleRef = useRef(null)
 const lottieRef = 
-  title == 'Team Member' ? team : 
+  title == 'Team Members' ? team : 
   title == 'Contact Us' ? contact :
-  title == 'Our Projects' ? project : null;
+  title == 'Our Projects' ? project : teamDetail;
+
 
  useTitleAnimation(subtitleRef);
   return (

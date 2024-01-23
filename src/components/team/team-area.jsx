@@ -17,9 +17,7 @@ const TeamArea = () => {
             <div className='row'>
               <div className='col-xl-12 col-lg-12 col-md-12'>
                 <div className='tp-team-section-box text-center'>
-                  <h5 className='inner-section-subtitle pb-10'>
-                    Talented Team
-                  </h5>
+                 
                   <h3 className='tp-section-title mb-0 text-black'>
                     Meet our Team Members
                   </h3>
