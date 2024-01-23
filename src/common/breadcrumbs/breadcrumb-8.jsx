@@ -82,7 +82,7 @@ const BreadcrumbEight = ({ project }) => {
               <div className="col-xl-3 col-lg-3 col-md-6 mb-40 pd-border-right">
                 <div className={`breadcrumb__client-info space-left-3`}>
                   <span>Status</span>
-                  <p>{project.project_date}</p>
+                  <p>{project.status}</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-3 col-md-6 mb-40 pd-border-right">
