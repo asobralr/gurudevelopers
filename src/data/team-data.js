@@ -52,7 +52,7 @@ const team_data = [
       { id: 2, title: "Experience:", info: "19 years" },
     ],
     skill_title: "Superpower Skills:",
-    details_skill: ["Team motivation", "", "Figma"],
+    details_skill: ["Team motivation", "React Native", "Creativity"],
     about_info_1: (
       <>
        Gurudevelopers is amazing to me. We are friends working together with selected customer
