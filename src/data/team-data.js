@@ -17,65 +17,53 @@ const team_data = [
     job_title: "Mobile Developer & Founder",
     slug: "agustin-sobral",
     feature_list: [
-      <>Cras sed felis eget velit aliquet. Morbi quis commodo odio</>,
-      <>
-        Pharetra vel turpis nunc eget lorem dolor. Quam vulputate <br />
-        dignissim
-      </>,
-      <>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</>,
+      <>My set of skills includes in-app purchases, database interaction, push and local notifications, UI/UX development, Redux, Firebase, API integration, media streaming, user management, in-app advertisement, publishing on AppStore and PlayStore, etc</>,
     ],
     expricence: [
-      { id: 1, title: "Role:", info: "Design" },
-      { id: 2, title: "Experience:", info: "14 years" },
+      { id: 1, title: "Role:", info: "Mobile senior React natve" },
+      { id: 2, title: "Experience:", info: "16 years" },
     ],
     skill_title: "Superpower Skills:",
-    details_skill: ["Interaction Design", "User Research", "Figma"],
-    about_info_1: (
+    details_skill: ["Technical leader", "Postiive Mind", "Senior React Native"],
+   about_info_1: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+       Gurudevelopers is a way to live my life learning new techincal features and work with my friends.I'm an experienced app developer, using the React Native framework. 
       </>
     ),
     about_info_2: (
       <>
-        Cras sed felis eget velit aliquet. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh tellus molestie nunc non blandit massa enim nec. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Posuere morbi leo urna
-        molestie.
+      In the past, I've created an small beer company. I have 2 childs and I love to play soccer. 
       </>
     ),
+    address: "Cañuelas, Buenos Aires, Argentina",
   },
   {
     id: 2,
     cls: 2,
     img: team_img_2,
-    name: "Dario Mira",
+    name: "Darío Mira",
     job_title: "Mobile Developer & Founder",
     slug: "dario-mira",
     feature_list: [
-      <>Cras sed felis eget velit aliquet. Morbi quis commodo odio</>,
-      <>
-        Pharetra vel turpis nunc eget lorem dolor. Quam vulputate <br />
-        dignissim
-      </>,
-      <>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</>,
+      <>From the first contact to the delivery of the requested solution, our work focuses on identifying and understanding the client’s needs. In this way, we seek to accompany them in the implementation of a technological development that best suits those needs.</>,
     ],
     expricence: [
-      { id: 1, title: "Role:", info: "Design" },
-      { id: 2, title: "Experience:", info: "14 years" },
+      { id: 1, title: "Role:", info: " Mobile Developer Founder" },
+      { id: 2, title: "Experience:", info: "19 years" },
     ],
     skill_title: "Superpower Skills:",
-    details_skill: ["Interaction Design", "User Research", "Figma"],
+    details_skill: ["Team motivation", "", "Figma"],
     about_info_1: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+       Gurudevelopers is amazing to me. We are friends working together with selected customer
       </>
     ),
     about_info_2: (
       <>
-        Cras sed felis eget velit aliquet. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh tellus molestie nunc non blandit massa enim nec. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Posuere morbi leo urna
-        molestie.
+        I am art of living teacher. I guide online meditations weekly. I love to dance.
       </>
     ),
+    address: "Palermo,  Buenos Aires, Argentina",
   },
 
   {
@@ -87,20 +75,17 @@ const team_data = [
     slug: "gonzalo-robledo",
     birthday: "1999-05-03", // YYYY-MM-DD format
     expricence: [
-      { id: 1, title: "Role:", info: "¿Full Stack? Developer" },
-      { id: 2, title: "Experience:", info: "1 year" },
+      { id: 1, title: "Role:", info: "Full Stack Developer" },
+      { id: 2, title: "Experience:", info: "2 years" },
     ],
     skill_title: "Superpower Skills:",
     details_skill: ["React Js", "Next Js", "Mongo DB", "Node Js", "Express", "Typescript"],
-    about_info_1: <>Informacion sobre Gonzalo...</>,
+    about_info_1: <>i love what I do. I complete the projects come what may</>,
     feature_list: [
-      <>List item 1</>,
-      <>
-        List Item 2<br />
-      </>,
-      <>List Item 3</>,
+      <>Back-end & Frond-end developer. I have rich experience in wordpress, also I am good at Magento, Sanity. </>,
+     
     ],
-    about_info_2: <>Mas Informacion...</>,
+    about_info_2: <>I love to interact with people. I'm very good voleyball player</>,
     address: "Buenos Aires, ARG",
   },
   {
@@ -111,29 +96,22 @@ const team_data = [
     job_title: "UX/UI Designer",
     slug: "nadia-aguidak",
     feature_list: [
-      <>Cras sed felis eget velit aliquet. Morbi quis commodo odio</>,
-      <>
-        Pharetra vel turpis nunc eget lorem dolor. Quam vulputate <br />
-        dignissim
-      </>,
-      <>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</>,
+      <>Custom Design.</>,
     ],
     expricence: [
       { id: 1, title: "Role:", info: "Design" },
-      { id: 2, title: "Experience:", info: "14 years" },
+      { id: 2, title: "Experience:", info: "10 years" },
     ],
     skill_title: "Superpower Skills:",
-    details_skill: ["Interaction Design", "User Research", "Figma"],
+    details_skill: ["Figma", "Wordpress", "Adobe XD", "Adobe Photoshop"],
     about_info_1: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Custom Design for your business or personal website. I have rich experience in Figma, also I am good at Adobe XD, Adobe Photoshop. 
       </>
     ),
     about_info_2: (
       <>
-        Cras sed felis eget velit aliquet. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh tellus molestie nunc non blandit massa enim nec. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Posuere morbi leo urna
-        molestie.
+       Once an year I spend 10 days in silence. Also I like to practice hot yoga.
       </>
     ),
   },
@@ -145,29 +123,22 @@ const team_data = [
     job_title: "Fullstack Web Developer",
     slug: "harald-solaas",
     feature_list: [
-      <>Cras sed felis eget velit aliquet. Morbi quis commodo odio</>,
-      <>
-        Pharetra vel turpis nunc eget lorem dolor. Quam vulputate <br />
-        dignissim
-      </>,
-      <>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</>,
+      <>Gurudevelopers was my first Job. I'm very grateful with them</>,
     ],
     expricence: [
-      { id: 1, title: "Role:", info: "Design" },
-      { id: 2, title: "Experience:", info: "14 years" },
+      { id: 1, title: "Role:", info: "Senior React Developer" },
+      { id: 2, title: "Experience:", info: "8 years" },
     ],
     skill_title: "Superpower Skills:",
-    details_skill: ["Interaction Design", "User Research", "Figma"],
+    details_skill: ["React", "Team leader", "Nextjs"],
     about_info_1: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Constantly learning new technologies and frameworks. I have rich experience in React, also I am good at Nextjs, Nodejs, Wordpress, etc.
       </>
     ),
     about_info_2: (
       <>
-        Cras sed felis eget velit aliquet. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh tellus molestie nunc non blandit massa enim nec. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Posuere morbi leo urna
-        molestie.
+         I am an art of living teacher. I meditate twice a day. I play basketball
       </>
     ),
   },
@@ -179,29 +150,22 @@ const team_data = [
     job_title: "Smart contract Developer",
     slug: "pedro-dorr",
     feature_list: [
-      <>Cras sed felis eget velit aliquet. Morbi quis commodo odio</>,
-      <>
-        Pharetra vel turpis nunc eget lorem dolor. Quam vulputate <br />
-        dignissim
-      </>,
-      <>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</>,
+      <>We made future Apps at Gurudevelopers. We are a great team</>,
     ],
     expricence: [
-      { id: 1, title: "Role:", info: "Design" },
-      { id: 2, title: "Experience:", info: "14 years" },
+      { id: 1, title: "Role:", info: "Blockchain Developer" },
+      { id: 2, title: "Experience:", info: "5 years" },
     ],
     skill_title: "Superpower Skills:",
-    details_skill: ["Interaction Design", "User Research", "Figma"],
+    details_skill: ["Solidity", "Truffle", "Hardhat", "React", "Nextjs"],
     about_info_1: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        I have rich experience in Solidity, also I am good at Truffle, Hardhat, React, Nextjs, Nodejs, Wordpress, etc.
       </>
     ),
     about_info_2: (
       <>
-        Cras sed felis eget velit aliquet. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh tellus molestie nunc non blandit massa enim nec. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Posuere morbi leo urna
-        molestie.
+        Backend developer. I love Blockchain and Smart contracts because it is the future. I am a good team leader.
       </>
     ),
   },
@@ -213,29 +177,22 @@ const team_data = [
     job_title: "Web Developer",
     slug: "dario-hoyos",
     feature_list: [
-      <>Cras sed felis eget velit aliquet. Morbi quis commodo odio</>,
-      <>
-        Pharetra vel turpis nunc eget lorem dolor. Quam vulputate <br />
-        dignissim
-      </>,
-      <>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</>,
+      <> I like to be responsible to take care of projects</>,
     ],
     expricence: [
       { id: 1, title: "Role:", info: "Design" },
-      { id: 2, title: "Experience:", info: "14 years" },
+      { id: 2, title: "Experience:", info: "10 years" },
     ],
     skill_title: "Superpower Skills:",
-    details_skill: ["Interaction Design", "User Research", "Figma"],
+    details_skill: ["PHP", "Wordpress", "Laravel", "React"],
     about_info_1: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        I have rich experience in PHP, also I am good at Laravel, React, Wordpress, etc.
       </>
     ),
     about_info_2: (
       <>
-        Cras sed felis eget velit aliquet. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh tellus molestie nunc non blandit massa enim nec. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Posuere morbi leo urna
-        molestie.
+        I love to interact with people. I want to be influencer.
       </>
     ),
   },
@@ -244,19 +201,14 @@ const team_data = [
     cls: 2,
     img: maxi,
     name: "Maximiliano Albarran",
-    job_title: "Web Developer",
+    job_title: "Junior Web Developer",
     slug: "maximiliano-albarran",
     feature_list: [
-      <>Cras sed felis eget velit aliquet. Morbi quis commodo odio</>,
-      <>
-        Pharetra vel turpis nunc eget lorem dolor. Quam vulputate <br />
-        dignissim
-      </>,
-      <>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim.</>,
+      <>I like to work in freedom and good companies</>,
     ],
     expricence: [
       { id: 1, title: "Role:", info: "Frontend Web Developer" },
-      { id: 2, title: "Experience:", info: "3 months" },
+      { id: 2, title: "Experience:", info: "1 year" },
     ],
     skill_title: "Superpower Skills:",
     details_skill: ["React JS", "Next JS", "Tailwind", "Chakra ui", "Typescript"],
@@ -270,14 +222,12 @@ const team_data = [
     address: "Buenos Aires, ARG",
     about_info_1: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        I have rich experience in React, also I am good at Nextjs, Nodejs, Wordpress, etc.
       </>
     ),
     about_info_2: (
       <>
-        Cras sed felis eget velit aliquet. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh tellus molestie nunc non blandit massa enim nec. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Posuere morbi leo urna
-        molestie.
+        I'm good to work in team. Also I am a good voleyball player.
       </>
     ),
   },

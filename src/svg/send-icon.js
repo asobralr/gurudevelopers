@@ -16,8 +16,8 @@ const SendIcon = () => {
           <pattern
             id='pattern0'
             patternContentUnits='objectBoundingBox'
-            width='1'
-            height='1'
+            width='3'
+            height='3'
           >
             <use
               xlinkHref='#image0_2106_35'
