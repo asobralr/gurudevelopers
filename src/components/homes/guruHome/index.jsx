@@ -29,7 +29,7 @@ const HomeGuru = () => {
       {/* <SalesArea /> */}
       <Projects />
       {/* <RankArea /> */}
-      <TestimonialArea />
+      <TestimonialArea background={true}/>
       {/* <IntegrationArea /> */}
       {/* <BlogArea /> */}
       {/* <FooterThree /> */}
