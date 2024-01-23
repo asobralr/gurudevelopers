@@ -20,7 +20,7 @@ export const Projects = () => {
           <div className="row grid">
             {items?.slice(0, 3).map((item, i) => (
               <div key={i} className="col-xl-4 col-lg-6 col-md-6 col-sm-6 grid-item  cat1 cat4 cat3 cat5">
-                {/* <Link href={'/project/'+item.slug}> */}
+                <Link href={'/project/'+item.slug}>
                 <div className="inner-project-item mb-30">
                   <div className="inner-project-img fix p-relative" style={{ height: 320 }}>
                     <Image className="w-100" src={item.thumb_img} alt="theme-pure" style={{ height: "100%", objectFit: "cover" }} />
@@ -38,7 +38,7 @@ export const Projects = () => {
                     <p>{item.des}</p>
                   </div>
                 </div>
-                {/* </Link> */}
+                </Link>
               </div>
             ))}
           </div>
