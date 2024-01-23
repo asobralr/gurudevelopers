@@ -6,24 +6,9 @@ import CtaArea from '../contact/cta-area'
 import Portfolio from './portfolio'
 import BreadcrumbTwo from '@/src/common/breadcrumbs/breadcrumb-2'
 import TeamArea from '../team/team-area'
+import { FooterGuru } from '@/src/layout/footers/footer-guru'
 
 const Project = () => {
-  //**VARIACION 1 HEADER */
-
-  //   return (
-  //     <>
-  //       <HeaderSix style_2={true} />
-  //       <main>
-  //         <BreadcrumbSeven />
-  //         <Portfolio />
-  //         <CtaArea />
-  //       </main>
-  //       <FooterFive style_contact={true}  style_team={true} />
-  //     </>
-  //   );
-
-  //**VARIACION 2 HEADER */
-
   return (
     <>
       <HeaderSix />
@@ -34,7 +19,8 @@ const Project = () => {
             <Portfolio />
             
           </main>
-          <FooterFive style_contact={true} style_team={true} />
+          {/* <FooterFive style_contact={true} style_team={true} /> */}
+          <FooterGuru />
         </div>
       </div>
     </>

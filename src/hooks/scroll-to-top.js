@@ -29,7 +29,7 @@ const ScrollToTop = () => {
         onClick={scrollTop}
         className={`scroll-top scroll-to-target ${sticky ? 'open' : ''}`}
         data-target='html'
-        style={{ backgroundColor: '#03357a' }}
+        style={{ backgroundColor: '#03357a', outline: '2px solid white' }}
       >
         <i className='far fa-angle-double-up'></i>
       </button>
