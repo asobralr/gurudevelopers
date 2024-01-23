@@ -43,12 +43,7 @@ const TeamDetailsArea = ({member}) => {
                                     <div className="team-details-img">
                                        <Image src={member.img || ''} alt="theme-pure" />
                                     </div>
-                                    {/* <div className="team-details-work-tag">
-                                       <span> 
-                                          <CheckboxIcon />
-                                       </span>
-                                       <span>Looking for Work</span>
-                                    </div> */}
+                                    
                                    
                                     <div className="team-details-work-location" style={{marginTop:20}}>
                                        <span> 
