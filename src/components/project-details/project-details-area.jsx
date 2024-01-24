@@ -34,7 +34,7 @@ const project_details_data = [
 ];
 
 const project_details_content = {
-  solution_title: "Solution & Result",
+  solution_title: "App description",
   des_1: (
     <>
       Felis morbi ut tristique pretium libero. Eget purus, enim, orci, quis tempor sed. Sed nec eget nibh et Ut orci, sagittis tellus dui congue. Blandit laoreet nullam amet eget. Ut tincidunt diam tempor sed turpis odio vitae sem lobortis. Lobortis
@@ -75,6 +75,18 @@ const ProjectDetailsArea = ({ project }) => {
               </div> */}
             </div>
             <div className="col-xl-10 col-lg-10 ">
+              <div className="row">
+                <div className="col-md-3">
+                  <div className="pd-solution-title-box">
+                    <h4 className="pd-details-title">Project description</h4>
+                  </div>
+                </div>
+                <div className="col-md-8">
+                  <div className="pd-solution-paragraph">
+                    <p>{project?.description}</p>
+                  </div>
+                </div>
+              </div>
               {project?.features && (
                 <div className="pd-details-wrapper">
                   <h4 className="pd-details-title">Features</h4>
@@ -86,29 +98,17 @@ const ProjectDetailsArea = ({ project }) => {
                     </ul>
                     {/* <p>{item.description}</p> */}
                   </div>
-                  {/* <div className="pd-details-solution">
-                  <div className="pd-details-solution-img-box d-flex align-items-center">
-                    <div className="pd-details-solution-img mr-30">
-                      <Image src={solution_1} alt="theme-pure" />
-                    </div>
-                    <div className="pd-details-solution-img">
-                      <Image src={solution_2} alt="theme-pure" />
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-md-3">
-                      <div className="pd-solution-title-box">
-                        <h4 className="pd-details-title">{solution_title}</h4>
+                  {project?.thumbnails && (
+                    <div className="pd-details-solution">
+                      <div className="pd-details-solution-img-box d-flex align-items-center">
+                        {project.thumbnails.map((thumbnail, i) => (
+                          <div key={i} className={`pd-details-solution-img ${i < project.thumbnails.length ? "mr-30" : ""}`}>
+                            <Image width={thumbnail?.width || 200} height={thumbnail?.height || 400} src={thumbnail.img} alt="theme-pure" />
+                          </div>
+                        ))}
                       </div>
                     </div>
-                    <div className="col-md-9">
-                      <div className="pd-solution-paragraph">
-                        <p>{des_1}</p>
-                        <p>{des_2}</p>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
+                  )}
                 </div>
               )}
             </div>

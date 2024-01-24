@@ -18,8 +18,8 @@ const team_data = [
     slug: "agustin-sobral",
     feature_list: [
       <>
-        My set of skills includes database interaction, push and local notifications, UI/UX development, in-app purchases, Redux, Firebase, API integration, media streaming, user management, in-app advertisement, publishing on AppStore and PlayStore,
-        etc.
+        My set of skills includes database interaction, push and local notifications, UI/UX development, in-app purchases, Redux, Firebase, API integration, media streaming, user management, end-to-end testing, in-app advertisement, publishing on
+        AppStore and PlayStore, etc.
       </>,
     ],
     expricence: [
@@ -27,9 +27,9 @@ const team_data = [
       { id: 2, title: "Experience:", info: "16 years" },
     ],
     skill_title: "Superpower Skills:",
-    details_skill: ["Technical leader", "React Native", "Analytical thinking"],
-    about_info_1: <>Gurudevelopers is a way to live my life doing what I love and working with my friends. I'm an experienced app developer, using the React Native framework.</>,
-    about_info_2: <>In the past, I've founded a small craft beer bewing company. I have 2 childs and I love to play soccer.</>,
+    details_skill: ["Technical leader", "React Native", "Analytical thinking", "Typescript", "Javascript", "Appium", "SQL"],
+    about_info_1: <>Gurudevelopers is a way to live my life doing what I love and working with my friends. I'm an experienced app developer, using React Native.</>,
+    about_info_2: <>In the past, I've studied finance and economics and I've founded a small craft beer bewing company. I have 2 childs and I love to play soccer.</>,
     address: "Cañuelas, Buenos Aires, Argentina",
   },
   {
