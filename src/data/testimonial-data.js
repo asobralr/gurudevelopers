@@ -8,14 +8,14 @@ import author_img_8 from '../../public/assets/img/testimonial/testi-icon-5-2.png
 import author_img_9 from '../../public/assets/img/testimonial/testi-icon-5-4.png'
 import author_img_12 from '../../public/assets/img/testimonial/santi.jpeg'
 
-import brand_icon_2 from '../../public/assets/img/testimonial/atlantic0.png'
+import azero from '../../public/assets/img/testimonial/a0.png'
 import islandpay from '../../public/assets/img/testimonial/islandpay.svg'
 import infinite from '../../public/assets/img/testimonial/infinitepower.png'
 import gds from '../../public/assets/img/testimonial/gdsc.png'
 import brand_icon_6 from '../../public/assets/img/testimonial/testi-logo-5-2.png'
 import brand_icon_8 from '../../public/assets/img/testimonial/testi-logo-5-1.png'
 import brand_icon_9 from '../../public/assets/img/testimonial/testi-logo-5-2.png'
-import brand_icon_12 from '../../public/assets/img/testimonial/tlexInstitute.png'
+import brand_icon_12 from '../../public/assets/img/testimonial/tlexlogo.png'
 
 const testimonial_data = [
   {
@@ -30,7 +30,7 @@ const testimonial_data = [
   {
     id: 13,
     author_img: author_img_2,
-    brand_icon: brand_icon_2,
+    brand_icon: azero,
     name: 'Helen Stewart',
     title: 'Director',
     description:
