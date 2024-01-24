@@ -104,6 +104,7 @@ const portfolio_data = [
     stack: ["Sql", "Node"],
     brand_logo_view: false,
     priorityHome: true,
+    slug: "tlex",
   },
   {
     id: 6,
