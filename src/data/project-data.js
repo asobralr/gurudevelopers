@@ -118,6 +118,8 @@ const project_data = [
     description: <>Excepteur sint occaecat cupidatat officia non proident, sunt in culpa qui deserunt mollit anim id est laborum.</>,
     client: "Mycoocoon",
     budget: "200-250",
+    description:
+      "Brainbo is a mobile app that allows the user to experience a wide range of chromotherapy immersions. It is a tool that helps the user to improve his/her mood, focus and sleep quality. It includes a Color Test to discover the user's chromotherapy profile and determine the best immersion. Immersions can be cast to Airplay or Chromecast for a better experience.",
     budget_simble: "k",
     delay: ".5s",
     services: (
@@ -130,7 +132,21 @@ const project_data = [
     status: "Published",
     video: "/assets/videos/brainbo.mp4",
     link_site: "https://brainbo.co",
-    features: ["Social login", "Customized animations", "Video player", "Local notifications", "Airplay Integration", "IoT implementation with custom lamp for chromotherapy"],
+    features: ["Social login", "Customized animations", "Video player", "Local notifications", "Airplay and Chromecast Integration", "IoT implementation with custom lamp for chromotherapy", "Back-office with usage statistics"],
+    thumbnails: [
+      {
+        img: "/assets/img/thumbnails/brainbo/brainbo-1.png",
+        description: "settings",
+      },
+      {
+        img: "/assets/img/thumbnails/brainbo/brainbo-2.png",
+        description: "User profile",
+      },
+      {
+        img: "/assets/img/thumbnails/brainbo/brainbo-3.png",
+        description: "Color Test",
+      },
+    ],
   },
   {
     id: 7,

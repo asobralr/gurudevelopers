@@ -6,7 +6,7 @@ import HomeOne from "../components/homes/home";
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Softec - Data analytics"} />
+      <SEO pageTitle={"Gurudevelopers"} />
       <HomeOne />
     </Wrapper>
   );
