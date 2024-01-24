@@ -76,12 +76,10 @@ const ProjectDetailsArea = ({ project }) => {
             </div>
             <div className="col-xl-10 col-lg-10 ">
               <div className="row">
-                <div className="col-md-3">
-                  <div className="pd-solution-title-box">
-                    <h4 className="pd-details-title">Project description</h4>
-                  </div>
+                <div className="pd-solution-title-box">
+                  <h4 className="pd-details-title">Project description</h4>
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-10">
                   <div className="pd-solution-paragraph">
                     <p>{project?.description}</p>
                   </div>

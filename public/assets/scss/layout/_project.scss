@@ -379,7 +379,6 @@
     }
 }
 .pd-solution-paragraph {
-	padding-left: 15px;
     @media #{$md,$xs}{
         padding-left: 0;
     }
@@ -451,6 +450,7 @@
 }
 .pd-details-wrapper{
     padding-right: 169px;
+    margin-top: 50px;
     @media #{$lg}{
         padding-right: 50px;
     }
