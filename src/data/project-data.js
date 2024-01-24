@@ -64,19 +64,6 @@ const project_data = [
     link_site: "https://strapi-hotel-com.vercel.app",
   },
   {
-    id: 3,
-    img_1: project_img_3,
-    img_2: project_brand_3,
-    title: "App Design",
-    description: <>Excepteur sint occaecat cupidatat officia non proident, sunt in culpa qui deserunt mollit anim id est laborum.</>,
-    client_name: "Phillip Anthropy",
-    budget: "200-250",
-    budget_simble: "k",
-    delay: ".7s",
-    slug: "aol",
-    link_site: "https://aolsky.com",
-  },
-  {
     id: 4,
     img_1: project_img_4,
     img_2: project_brand_4,
@@ -163,13 +150,62 @@ const project_data = [
         <li>Firebase</li>
       </>
     ),
+     thumbnails: [
+      {
+        img: "/assets/img/thumbnails/tlex/Tlex-flow-app-7.jpg",
+        description: "Audio List",
+      },
+      {
+        img: "/assets/img/thumbnails/tlex/Tlex-flow-app-9.jpg",
+        description: "Audio player",
+      },
+      {
+        img: "/assets/img/thumbnails/tlex/Tlex-flow-app-11.jpg",
+        description: "Yoga",
+      },
+    ],
     slug: "tlex",
     status: "Published",
     video: "/assets/videos/tlex.mp4",
     link_site: "https://tlexflow.app",
     features: ["Social login", "Audio Player", "Video player", "Offline", "Multi Language", "21 Days Challenge"],
   },
- 
+ {
+    id: 10,
+    img_1: project_img_6,
+    img_2: project_brand_6,
+    title: "Sudarshan Kriya App",
+    description: <>Internal App for art of living teachers.  </>,
+    client: "Art of Living",
+    budget: "200-250",
+    budget_simble: "k",
+    delay: ".5s",
+    services: (
+      <>
+        <li>Expo</li>
+        <li>React Native</li>
+        <li>Firebase</li>
+      </>
+    ),
+     thumbnails: [
+      {
+        img: "/assets/img/thumbnails/aol/aolplay.png",
+        description: "Audio List",
+      },
+      {
+        img: "/assets/img/thumbnails/aol/aolplay1.png",
+        description: "Audio player",
+      },
+      {
+        img: "/assets/img/thumbnails/aol/aolplay2.png",
+        description: "Yoga",
+      },
+    ],
+    slug: "aol",
+    status: "Published",
+    link_site: "https://cursos.elartedevivir.org/app",
+    features: [ "Audio Player",  "Offline content", "Network detection", "Multi Language", "Battery charge detection"],
+  },
   {
     id: 8,
     img_1: project_img_8,

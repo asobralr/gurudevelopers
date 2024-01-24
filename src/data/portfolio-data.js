@@ -135,6 +135,7 @@ const portfolio_data = [
     slug: "micasa",
   },
   {
+
     id: 8,
     thumb_img: thumb_img_4,
     brand_logo: brand_logo_4,
@@ -145,6 +146,7 @@ const portfolio_data = [
     category: "Apps",
     filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design"],
     brand_logo_view: false,
+    slug: "aol",
   },
   {
     id: 9,
