@@ -150,7 +150,7 @@ const project_data = [
         <li>Firebase</li>
       </>
     ),
-     thumbnails: [
+    thumbnails: [
       {
         img: "/assets/img/thumbnails/tlex/Tlex-flow-app-7.jpg",
         description: "Audio List",
@@ -170,12 +170,12 @@ const project_data = [
     link_site: "https://tlexflow.app",
     features: ["Social login", "Audio Player", "Video player", "Offline", "Multi Language", "21 Days Challenge"],
   },
- {
+  {
     id: 10,
     img_1: project_img_6,
     img_2: project_brand_6,
     title: "Sudarshan Kriya App",
-    description: <>Internal App for art of living teachers.  </>,
+    description: <>Internal App for art of living teachers. </>,
     client: "Art of Living",
     budget: "200-250",
     budget_simble: "k",
@@ -187,7 +187,7 @@ const project_data = [
         <li>Firebase</li>
       </>
     ),
-     thumbnails: [
+    thumbnails: [
       {
         img: "/assets/img/thumbnails/aol/aolplay.png",
         description: "Audio List",
@@ -204,7 +204,7 @@ const project_data = [
     slug: "aol",
     status: "Published",
     link_site: "https://cursos.elartedevivir.org/app",
-    features: [ "Audio Player",  "Offline content", "Network detection", "Multi Language", "Battery charge detection"],
+    features: ["Audio Player", "Offline content", "Network detection", "Multi Language", "Battery charge detection"],
   },
   {
     id: 8,
@@ -218,7 +218,7 @@ const project_data = [
     budget_simble: "k",
     delay: ".9s",
     slug: "micasa",
-    status: "Coming soon2",
+    status: "Coming soon",
     features: ["User authentication", "Email validationo", "P2P market (using Real Time Firebase Database)", "API integration", "Video preview", "Admin panel", "Blockchain integration"],
     thumbnails: [
       {
@@ -240,6 +240,39 @@ const project_data = [
         <li>React Native</li>
         <li>Firebase</li>
         <li>ReactJS</li>
+      </>
+    ),
+  },
+  {
+    id: 9,
+    title: "PAI",
+    description:
+      "PAI is a mobile app that works as a wallet for the PAI token. PAI uses a customized protocol to replicate the value of the Argentine Peso. The app allows the user to store, send, reveive and exchange PAI for DAI. The project also includes a web app where users can request collateralized loans in PAI.",
+    client: "PAI",
+    delay: ".9s",
+    slug: "pai",
+    status: "Coming soon",
+    features: ["Biometric login", "Seed phrase recovery", "Blockchain interaction", "Exchange feature", "Oracle development", "Cusomtized protocol with liquity pool", "Web app with collateralized loans"],
+    thumbnails: [
+      {
+        img: "/assets/img/thumbnails/pai/pai-1.png",
+        description: "settings",
+      },
+      {
+        img: "/assets/img/thumbnails/pai/pai-2.png",
+        description: "User profile",
+      },
+      {
+        img: "/assets/img/thumbnails/pai/pai-3.png",
+        description: "Color Test",
+      },
+    ],
+    video: "/assets/videos/brainbo.mp4",
+    services: (
+      <>
+        <li>React Native</li>
+        <li>NodeJS</li>
+        <li>MongoDB</li>
       </>
     ),
   },
