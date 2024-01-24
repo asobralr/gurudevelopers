@@ -94,7 +94,8 @@ const project_data = [
     img_1: project_img_5,
     img_2: project_brand_5,
     title: "Moevius",
-    description: <>Excepteur sint occaecat cupidatat officia non proident, sunt in culpa qui deserunt mollit anim id est laborum.</>,
+    description:
+      "Moevius is a musical mobile game where users have to guess which song is playing. It includes a Challenge mode where the user can challenge other to see who is the best. The app includes a wide range of songs from different genres and decades.",
     client: "Riszer Software",
     budget: "200-250",
     budget_simble: "k",
@@ -105,10 +106,24 @@ const project_data = [
         <li>Firebase</li>
       </>
     ),
-    status: "Published. Deprecated by client.",
+    status: "Published (deprecated by client)",
     slug: "moevius",
     video: "/assets/videos/moevius.mp4",
-    features: ["In-App purchases", "Customized animations", "In-app advertisement with AdMob", "Challenge mode using Firebase Realtime Database", "User autentication"],
+    features: ["In-App purchases", "Customized animations", "In-app advertisement with AdMob", "Challenge mode using Firebase Realtime Database", "User authentication"],
+    thumbnails: [
+      {
+        img: "/assets/img/thumbnails/moevius/moevius-1.png",
+        description: "Home",
+      },
+      {
+        img: "/assets/img/thumbnails/moevius/moevius-2.png",
+        description: "Game",
+      },
+      {
+        img: "/assets/img/thumbnails/moevius/moevius-3.png",
+        description: "User profile",
+      },
+    ],
   },
   {
     id: 6,
@@ -164,13 +179,38 @@ const project_data = [
     id: 8,
     img_1: project_img_8,
     img_2: project_brand_8,
-    title: "Graphic Design",
-    description: <>Excepteur sint occaecat cupidatat officia non proident, sunt in culpa qui deserunt mollit anim id est laborum.</>,
-    client_name: "Anthropy Salim",
+    title: "MiCasa",
+    description:
+      "MiCasa is a mobile app that allows the user to buy and sell tokenized Real Estate. It includes a wallet to store the user's tokens and a marketplace to buy and sell them. The project also includes a Real Estate tokenization web platform for the admin. Next features will include P2P operations and crowd lending.",
+    client: "Grupo Casa",
     budget: "200-250",
     budget_simble: "k",
     delay: ".9s",
-    slug: "graphic",
+    slug: "micasa",
+    status: "Coming soon2",
+    features: ["User authentication", "Email validationo", "P2P market (using Real Time Firebase Database)", "API integration", "Video preview", "Admin panel", "Blockchain integration"],
+    thumbnails: [
+      {
+        img: "/assets/img/thumbnails/micasa/micasa-1.png",
+        description: "settings",
+      },
+      {
+        img: "/assets/img/thumbnails/micasa/micasa-2.png",
+        description: "User profile",
+      },
+      {
+        img: "/assets/img/thumbnails/micasa/micasa-3.png",
+        description: "Color Test",
+      },
+    ],
+    video: "/assets/videos/brainbo.mp4",
+    services: (
+      <>
+        <li>React Native</li>
+        <li>Firebase</li>
+        <li>ReactJS</li>
+      </>
+    ),
   },
 ];
 export default project_data;
