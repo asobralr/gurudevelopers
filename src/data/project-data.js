@@ -16,7 +16,7 @@ import project_brand_5 from "../../public/assets/img/project/project-brand-1.png
 import project_img_6 from "../../public/assets/img/project/project-img-1.jpg";
 import project_brand_6 from "../../public/assets/img/project/project-brand-2.png";
 
-import project_img_7 from "../../public/assets/img/project/project-img-3.jpg";
+import tlex from "../../public/assets/img/project/tlex.png";
 import project_brand_7 from "../../public/assets/img/project/project-brand-4.png";
 
 import project_img_8 from "../../public/assets/img/project/project-img-4.jpg";
@@ -90,7 +90,7 @@ const project_data = [
     slug: "abco",
   },
   {
-    id: 5,
+    id: 7,
     img_1: project_img_5,
     img_2: project_brand_5,
     title: "Moevius",
@@ -133,8 +133,6 @@ const project_data = [
     description: <>Excepteur sint occaecat cupidatat officia non proident, sunt in culpa qui deserunt mollit anim id est laborum.</>,
     client: "Mycoocoon",
     budget: "200-250",
-    description:
-      "Brainbo is a mobile app that allows the user to experience a wide range of chromotherapy immersions. It is a tool that helps the user to improve his/her mood, focus and sleep quality. It includes a Color Test to discover the user's chromotherapy profile and determine the best immersion. Immersions can be cast to Airplay or Chromecast for a better experience.",
     budget_simble: "k",
     delay: ".5s",
     services: (
@@ -147,34 +145,31 @@ const project_data = [
     status: "Published",
     video: "/assets/videos/brainbo.mp4",
     link_site: "https://brainbo.co",
-    features: ["Social login", "Customized animations", "Video player", "Local notifications", "Airplay and Chromecast Integration", "IoT implementation with custom lamp for chromotherapy", "Back-office with usage statistics"],
-    thumbnails: [
-      {
-        img: "/assets/img/thumbnails/brainbo/brainbo-1.png",
-        description: "settings",
-      },
-      {
-        img: "/assets/img/thumbnails/brainbo/brainbo-2.png",
-        description: "User profile",
-      },
-      {
-        img: "/assets/img/thumbnails/brainbo/brainbo-3.png",
-        description: "Color Test",
-      },
-    ],
+    features: ["Social login", "Customized animations", "Video player", "Local notifications", "Airplay Integration", "IoT implementation with custom lamp for chromotherapy"],
   },
   {
-    id: 7,
-    img_1: project_img_7,
-    img_2: project_brand_7,
-    title: "App Design",
-    description: <>Excepteur sint occaecat cupidatat officia non proident, sunt in culpa qui deserunt mollit anim id est laborum.</>,
-    client_name: "Phillip Anthropy",
+    id: 5,
+    img_1: project_img_6,
+    img_2: project_brand_6,
+    title: "Tlex Flow",
+    description: <>Meditation and Yoga App for other Companies. Tlex offers special courses and challenges for companies. The app is available in several countries with differents language.</>,
+    client: "Tlex Institute",
     budget: "200-250",
     budget_simble: "k",
-    delay: ".7s",
-    slug: "app",
+    delay: ".5s",
+    services: (
+      <>
+        <li>React Native</li>
+        <li>Firebase</li>
+      </>
+    ),
+    slug: "tlex",
+    status: "Published",
+    video: "/assets/videos/tlex.mp4",
+    link_site: "https://tlexflow.app",
+    features: ["Social login", "Audio Player", "Video player", "Offline", "Multi Language", "21 Days Challenge"],
   },
+ 
   {
     id: 8,
     img_1: project_img_8,
