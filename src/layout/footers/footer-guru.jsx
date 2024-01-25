@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import logo from '../../../public/assets/img/logo/logo_guru.png'
 import logo_white from '../../../public/assets/img/logo/logo_guru_white.png'
-import { FaInstagram } from "react-icons/fa6";
+import { FaInstagram } from 'react-icons/fa6'
 
 const nav = [
   {
@@ -28,16 +28,27 @@ const nav = [
   }
 ]
 
-const social_networks = []
+const social_networks = [
+  //   {
+  //     id: 1,
+  //     link: 'https://www.instagram.com/gurudevelopers/',
+  //     icon: <FaInstagram />
+  //   }
+]
 // ESTRUCTURA : {link:string, icon:react_icon}
 const mail = 'info@gurudevelopers.dev'
 
-export const FooterGuru = ({background=true}) => {
-
-  const exists_sn = social_networks.length > 0
-
+export const FooterGuru = ({ background = true }) => {
   return (
-    <footer className='footer_guru' style={{backgroundColor: background ? '' : 'inherit'}}>
+    <footer
+      className='footer_guru'
+      style={{
+        background: background
+          ? 'linear-gradient(to bottom, #001F3F, #03357a)'
+          : '#FFFFFF',
+        padding: background ? '60px 0' : '20px 0'
+      }}
+    >
       <div className='container'>
         <div className='container_left'>
           <div className='footer_guru__image'>
@@ -48,33 +59,50 @@ export const FooterGuru = ({background=true}) => {
           <nav>
             <ul>
               {nav.map(item => (
-                <li key={item.link} >
-                  <Link href={item.link} style={{color: !background ? '#03357a' : ''}}>{item.name}</Link>
+                <li key={item.link}>
+                  <Link
+                    href={item.link}
+                    style={{ color: !background ? '#03357a' : '' }}
+                  >
+                    {item.name}
+                  </Link>
                 </li>
               ))}
             </ul>
           </nav>
         </div>
         <div className='container_right'>
-          <Link href={`mailto:${mail}`}
+          <p
+            className='container_right_quote'
             style={{
+              borderBottom: `2px solid ${background ? '#FFFFFF' : '#03357a'}`,
+              paddingBottom: 10,
               marginTop: 7,
-              paddingBottom: exists_sn ? 10 : 0,
-              borderBottom: exists_sn ? `1px solid ${background ? '#FFFFFF' : '#03357a'}` : '',
               color: !background ? '#03357a' : ''
             }}
           >
-            {mail}
-          </Link>
-          {exists_sn && (
-            <ul  className="footer_guru_sn">
+            Quote here
+          </p>
+          <div style={{ display: 'flex', gap: 10, marginTop: 10 }}>
+            <Link
+              href={`mailto:${mail}`}
+              style={{
+                color: !background ? '#03357a' : ''
+              }}
+            >
+              {mail}
+            </Link>
+            <ul className='footer_guru_sn'>
               {social_networks.map(item => (
-                <li key={item.link} className={!background ? 'footer_guru_sn_background' : ''}>
+                <li
+                  key={item.link}
+                  className={!background ? 'footer_guru_sn_background' : ''}
+                >
                   <Link href={item.link}>{item.icon}</Link>
                 </li>
               ))}
             </ul>
-          )}
+          </div>
         </div>
       </div>
     </footer>
