@@ -4,16 +4,11 @@ import React from 'react';
 import Lottie from "lottie-react";
 import animationData from "../../../public/assets/lottie/contactGirl.json" ;
 import send from '../../../public/assets/lottie/send.json' ;
-
-
+import { IoIosSend } from "react-icons/io";
 
 const contact_content  = {
     sub_title: "CONTACT US",
-    tilte: <>We'd love to <br /> hear from {" "} {" "}you. <span>  <Lottie
-                              animationData={send}
-                              loop={true}
-                              style={{height:'10vh'}} 
-                              /> </span></>,
+    tilte: <>We'd love to <span> <IoIosSend style={{color:'#03357a'}}/>  </span><br /> hear from {" "} {" "}you.</>,
     info: <>While we're good with smoke signals, there <br /> are easier ways to get in touch.</> ,
      
 }
