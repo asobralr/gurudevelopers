@@ -4,7 +4,7 @@ import gonza from "../../public/assets/img/team/gonzalo.jpg";
 import nadia from "../../public/assets/img/team/nadia.jpg";
 import hari from "../../public/assets/img/team/hari.jpg";
 import pedrito from "../../public/assets/img/team/Pedrodor.jpg";
-import dari from "../../public/assets/img/team/darihoyos.jpg";
+import dari from "../../public/assets/img/team/dariho.jpg";
 import maxi from "../../public/assets/img/team/maxi.jpg";
 
 const team_data = [
