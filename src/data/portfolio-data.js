@@ -59,7 +59,7 @@ const portfolio_data = [
     brand_logo_view: false,
     priorityHome: true,
     link_site: "https://paradiseresort.com.au/",
-    slug: "paradise",
+    slug: "cinko",
   },
   {
     id: 2,

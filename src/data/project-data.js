@@ -219,8 +219,8 @@ const project_data = [
     video: "/assets/videos/tlex.mp4",
     slug: "aol",
     status: "Published",
-    
-    features: [ "Audio Player",  "Offline content", "Network detection", "Multi Language", "Battery charge detection"],
+
+    features: ["Audio Player", "Offline content", "Network detection", "Multi Language", "Battery charge detection"],
   },
   {
     id: 11,
@@ -237,11 +237,11 @@ const project_data = [
         <li>Mysql</li>
       </>
     ),
-     
+
     slug: "bioefia",
     status: "active",
     link_site: "http://bioefiasg.com.ar",
-    features: [ "JS Calendar", "Datatables", "Codeingiter"],
+    features: ["JS Calendar", "Datatables", "Codeingiter"],
   },
   {
     id: 13,
@@ -258,11 +258,11 @@ const project_data = [
         <li>Mysql</li>
       </>
     ),
-     
+
     slug: "bioefia",
     status: "active",
     link_site: "http://bioefiasg.com.ar",
-    features: [ "JS Calendar", "Datatables", "Codeingiter"],
+    features: ["JS Calendar", "Datatables", "Codeingiter"],
   },
   {
     id: 8,
@@ -331,6 +331,38 @@ const project_data = [
         <li>React Native</li>
         <li>NodeJS</li>
         <li>MongoDB</li>
+      </>
+    ),
+  },
+  {
+    id: 10,
+    title: "CiNKO",
+    description:
+      "CiNKO is a crypto wallet focused on enabling instant cross-border transfers and efficient payout distributions. It allows the user to top up mobile minutes, operate with the most popuplar stablecoins and withdraw cash using Moneygram network.",
+    client: "Island Pay",
+    delay: ".9s",
+    slug: "cinko",
+    status: "Published",
+    features: ["Biometric login", "Bank trasnfers", "KYC process", "Moneygram integration", "P2P transfers", "Mobile topup", "E2E Testing"],
+    thumbnails: [
+      {
+        img: "/assets/img/thumbnails/cinko/cinko-1.png",
+        description: "settings",
+      },
+      {
+        img: "/assets/img/thumbnails/cinko/cinko-2.png",
+        description: "User profile",
+      },
+      {
+        img: "/assets/img/thumbnails/cinko/cinko-3.png",
+        description: "Color Test",
+      },
+    ],
+    link_site: "https://cinko.io",
+    video: "/assets/videos/brainbo.mp4",
+    services: (
+      <>
+        <li>React Native</li>
       </>
     ),
   },
