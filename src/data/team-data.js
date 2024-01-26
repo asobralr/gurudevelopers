@@ -1,7 +1,7 @@
 import team_img_1 from "../../public/assets/img/team/agus.jpg"; //team-4-1.png'
 import team_img_2 from "../../public/assets/img/team/daro.jpg"; //team-4-2.png'
 import gonza from "../../public/assets/img/team/gonzalo.jpg";
-import nadia from "../../public/assets/img/team/nadia.jpg";
+import nadia from "../../public/assets/img/team/nads.jpeg";
 import hari from "../../public/assets/img/team/hari.jpg";
 import pedrito from "../../public/assets/img/team/Pedrodor.jpg";
 import dari from "../../public/assets/img/team/dariho.jpg";

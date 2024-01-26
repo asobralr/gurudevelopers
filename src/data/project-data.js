@@ -27,17 +27,16 @@ const project_data = [
     id: 1,
     img_1: project_img_1,
     img_2: project_brand_1,
-    title: "Paradise Resort",
+    title: "Booking Website",
     header: "Web Development",
     description: (
       <>
-        React, Next, <br /> Node, Express
+        Paradise, a meticulously crafted web application designed with 
+Next.js for the frontend and powered by the flexible CMS, Sanity, for 
+seamless backend management.
       </>
     ),
-    client_name: "Phillip Anthropy",
-    budget: "200-250",
-    budget_simble: "k",
-    delay: ".9s",
+    client_name: "Atlantic 0",
     slug: "paradise",
     link_site: "https://paradiseresort.com.au/",
     client: "Atlantic 0",
@@ -48,7 +47,25 @@ const project_data = [
       </>
     ),
     status: "Live",
-    video: "/assets/videos/brainbo.mp4",
+    imageBack: "/assets/img/project/paradise.png" ,
+    thumbnails: [
+      {
+        img: "/assets/img/thumbnails/paradise/p1.png",
+        height : 1200,
+        width: 1600,
+        
+        description: "Home",
+      },
+      
+      
+      {
+        img: "/assets/img/thumbnails/paradise/p4.png",
+        height : 1200,
+        width: 1600,
+        description: "User profile",
+      },
+    ],
+    features: ["Dynamic content", "API Integration", "Customized animations", "Customized CMS", "SEO", "Responsive design"],
   },
   {
     id: 2,
