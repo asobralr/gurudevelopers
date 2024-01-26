@@ -1,5 +1,5 @@
 import BreadcrumbEight from "@/src/common/breadcrumbs/breadcrumb-8";
-import FooterFive from "@/src/layout/footers/footer-5";
+import { FooterGuru } from "@/src/layout/footers/footer-guru";
 import HeaderSix from "@/src/layout/headers/header-6";
 import React from "react";
 import ProjectArea from "../homes/home/project-area";
@@ -18,7 +18,7 @@ const ProjectDetails = ({ project }) => {
             <ProjectDetailsArea project={project} />
             <ProjectArea />
           </main>
-          <FooterFive style_contact={true} style_team={true} bg_style={false} />
+          <FooterGuru />
         </div>
       </div>
     </>
