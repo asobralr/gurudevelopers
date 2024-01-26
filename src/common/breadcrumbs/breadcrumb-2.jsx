@@ -57,7 +57,7 @@ const lottieRef =
                       career_details && "child-one"
                     }`}
                   >
-                    {innertitle}
+                    <Link href={`/${innertitle?.toLowerCase()}`}>{innertitle}</Link>
                   </span>
                   {team_details && (
                     <>

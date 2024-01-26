@@ -135,7 +135,6 @@ const portfolio_data = [
     slug: "micasa",
   },
   {
-
     id: 8,
     thumb_img: thumb_img_4,
     brand_logo: brand_logo_4,
@@ -146,7 +145,6 @@ const portfolio_data = [
     category: "Apps",
     filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design"],
     brand_logo_view: false,
-    slug: "aol",
   },
   {
     id: 9,
@@ -175,7 +173,6 @@ const portfolio_data = [
     brand_logo_view: false,
     priorityHome: true,
   },
-
   {
     id: 13,
     thumb_img: thumb_img_9,
@@ -188,6 +185,19 @@ const portfolio_data = [
     filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design"],
     brand_logo_view: false,
     slug: "moevius",
+  },
+  {
+    id: 14,
+    thumb_img: thumb_img_9,
+    brand_logo: brand_logo_9,
+    job_title: "Wallet App",
+    title: <>PAI</>,
+    des: <>A crypto wallet that uses PAI, a stablecoin paired to the Argentine Peso.</>,
+    delay: ".5s",
+    category: "Apps",
+    filter_id: ["all", "Design Work", "Branding", "Development", "Illusutration", "App Design"],
+    brand_logo_view: false,
+    slug: "pai",
   },
 ];
 export default portfolio_data;
