@@ -182,6 +182,7 @@ const project_data = [
     slug: "tlex",
     status: "Published",
     video: "/assets/videos/tlex.mp4",
+    
     link_site: "https://tlexflow.app",
     features: ["Social login", "Audio Player", "Video player", "Offline", "Multi Language", "21 Days Challenge"],
   },
@@ -190,11 +191,8 @@ const project_data = [
     img_1: project_img_6,
     img_2: project_brand_6,
     title: "Sudarshan Kriya App",
-    description: <>Internal App for art of living teachers. </>,
+    description: <>We have crafted an exclusive internal application tailored for Art of Living teachers, elevating their experience through a comprehensive solution that includes a sophisticated Backoffice. Within this intuitive platform, every teacher possesses a personalized kit, ensuring  access to essential tools and resources. Our commitment to enhancing the teaching experience is exemplified through this purpose-built app, designed to empower and streamline the work of Art of Living teachers."</>,
     client: "Art of Living",
-    budget: "200-250",
-    budget_simble: "k",
-    delay: ".5s",
     services: (
       <>
         <li>Expo</li>
@@ -216,10 +214,9 @@ const project_data = [
         description: "Yoga",
       },
     ],
-    video: "/assets/videos/tlex.mp4",
+    imageBack: "/assets/img/project/Teachers.png" ,
     slug: "aol",
     status: "Published",
-    
     features: [ "Audio Player",  "Offline content", "Network detection", "Multi Language", "Battery charge detection"],
   },
   {
@@ -227,7 +224,7 @@ const project_data = [
     img_1: project_img_6,
     img_2: project_brand_6,
     title: "Bioefia",
-    description_english: <> Management system to schedule fumigation visits. Used since 2018 by the company.</>,
+    description: <>Since 2018, our company has relied on a cutting-edge PHP Codeigniter management system designed for scheduling fumigation visits. This dynamic system not only efficiently coordinates appointments but also generates certificates and issues timely notifications to our valued clients. Serving as an indispensable tool, it has been pivotal in elevating our service standards. We take pride in the consistent use of this platform since its inception, reflecting its enduring reliability and impact on client satisfaction.</>,
     client: "Grupo Efia",
     delay: ".5s",
     services: (
@@ -237,7 +234,8 @@ const project_data = [
         <li>Mysql</li>
       </>
     ),
-     
+    imageBack: "/assets/img/project/bioefia.png" ,
+    
     slug: "bioefia",
     status: "active",
     link_site: "http://bioefiasg.com.ar",
@@ -247,22 +245,22 @@ const project_data = [
     id: 13,
     img_1: project_img_6,
     img_2: project_brand_6,
-    title: "Bioefia",
-    description_english: <> Management system to schedule fumigation visits. Used since 2018 by the company.</>,
-    client: "Grupo Efia",
+    title: "Alic",
+    description: <> Alic has been an integral part of our journey from the very beginning. We initiated our online presence by developing a website using WordPress. We progressed to crafting customized solutions for major their clients, creating a wholesale that integrates with their APIs. Alic's expertise has played a crucial role in shaping our technological evolution and ensuring the success of these ambitious ventures.</>,
+    client: "Alic",
     delay: ".5s",
     services: (
       <>
         <li>PHP </li>
-        <li>Codeigniter</li>
+        <li>Wordpress</li>
         <li>Mysql</li>
       </>
     ),
-     
-    slug: "bioefia",
+    imageBack: "/assets/img/project/alic.png" , 
+    slug: "alic",
     status: "active",
-    link_site: "http://bioefiasg.com.ar",
-    features: [ "JS Calendar", "Datatables", "Codeingiter"],
+    link_site: "https://alic.com.ar/",
+    features: [ "API integration", "MailChimp", "Wordpress plugin development"],
   },
   {
     id: 8,
@@ -292,7 +290,7 @@ const project_data = [
         description: "Color Test",
       },
     ],
-    video: "/assets/videos/brainbo.mp4",
+    imageBack: "/assets/img/project/gc_site.jpg" ,
     services: (
       <>
         <li>React Native</li>
@@ -325,7 +323,7 @@ const project_data = [
         description: "Color Test",
       },
     ],
-    video: "/assets/videos/brainbo.mp4",
+    imageBack: "/assets/img/project/pai.png" ,
     services: (
       <>
         <li>React Native</li>
