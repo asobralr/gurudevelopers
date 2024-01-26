@@ -71,13 +71,45 @@ seamless backend management.
     id: 2,
     img_1: project_img_2,
     img_2: project_brand_2,
-    title: "3d Design",
-    description: <>Excepteur sint occaecat cupidatat officia non proident, sunt in culpa qui deserunt mollit anim id est laborum.</>,
-    client_name: "Anthropy Phillip",
-    budget: "200-250",
-    budget_simble: "k",
+    title: "MyHotels",
+    services: (
+      <>
+        <li>NextJS</li>
+        <li>Strapi</li>
+      </>
+    ),
+    features: ["Dynamic Content Customization", "Back-office", "Mailgun integration", "Responsive Design", "SEO"],
+    description: (
+      <>
+        My Hotels is a modern and fully responsive website, thoughtfully designed with the integration of Next.js to ensure a seamless user experience. Driven by Strapi CMS, this platform empowers dynamic content creation, showcasing a diverse
+        selection of hotel chains, including voco and indigo. Explore personalized pages, uncover exclusive offers, and stay informed through blogs. Utilizing Mailgun, communication is streamlined, enhancing the uninterrupted and luxurious journey
+        facilitated by My Hotels.
+      </>
+    ),
+    client: "Atlantic 0",
     delay: ".5s",
     slug: "myhotels",
+    status: "Coming soon",
+    thumbnails: [
+      {
+        img: "/assets/img/thumbnails/myhotels/my-hotels-1.png",
+        description: "Home",
+        width: 600,
+        height: 400,
+      },
+      {
+        img: "/assets/img/thumbnails/myhotels/my-hotels-2.png",
+        description: "Game",
+        width: 600,
+        height: 400,
+      },
+      {
+        img: "/assets/img/thumbnails/myhotels/my-hotels-3.png",
+        description: "User profile",
+        width: 600,
+        height: 400,
+      },
+    ],
     link_site: "https://strapi-hotel-com.vercel.app",
   },
   {
@@ -85,11 +117,37 @@ seamless backend management.
     img_1: project_img_4,
     img_2: project_brand_4,
     title: "ABCo",
-    header: "Development Shopify, Backend and Frontend",
-    description: <>Excepteur sint occaecat cupidatat officia non proident, sunt in culpa qui deserunt mollit anim id est laborum.</>,
-    client_name: "Anthropy Salim",
-    budget: "200-250",
-    budget_simble: "k",
+    header: "E-commerce website",
+    services: (
+      <>
+        <li>NodeJS</li>
+        <li>ReactJS</li>
+        <li>Express</li>
+        <li>MongoDB</li>
+      </>
+    ),
+    status: "Live",
+    features: ["Shopify integration", "Real-Time Streaming with Web Sockets", "Email Management with Nodemailer", "Custom Admin Panel", "Notifications"],
+    description: (
+      <>
+        ABco is an innovative web application designed to streamline and enhance the process of consigning and selling sneakers. Developed with cutting-edge technologies, our system integrates an efficient frontend built on Next.js and a robust
+        backend based on Node.js. This combination ensures a smooth user experience and intuitive navigation.
+      </>
+    ),
+    client: "Atlantic 0",
+    imageBack: "/assets/img/project/ABCo.png",
+    thumbnails: [
+      {
+        img: "/assets/img/thumbnails/abco/abco-1.png",
+        description: "Home",
+        width: 600,
+      },
+      {
+        img: "/assets/img/thumbnails/abco/abco-2.png",
+        description: "Game",
+        width: 600,
+      },
+    ],
     delay: ".9s",
     slug: "abco",
   },
@@ -356,6 +414,7 @@ seamless backend management.
     client: "Island Pay",
     delay: ".9s",
     slug: "cinko",
+    header: "Crypto wallet app",
     status: "Published",
     features: ["Biometric login", "Bank trasnfers", "KYC process", "Moneygram integration", "P2P transfers", "Mobile topup", "E2E Testing"],
     thumbnails: [

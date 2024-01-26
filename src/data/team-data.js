@@ -114,7 +114,7 @@ const team_data = [
     cls: 2,
     img: pedrito,
     name: "Pedro Dorr",
-    job_title: "Smart contract Developer",
+    job_title: "Smart Contract Developer",
     slug: "pedro-dorr",
     feature_list: [<>We made future Apps at Gurudevelopers. We are a great team</>],
     expricence: [
@@ -148,7 +148,7 @@ const team_data = [
     cls: 2,
     img: maxi,
     name: "Maximiliano Albarran",
-    job_title: "Junior Web Developer",
+    job_title: "Web Developer",
     slug: "maximiliano-albarran",
     feature_list: [<>I like to work in freedom and good companies</>],
     expricence: [
