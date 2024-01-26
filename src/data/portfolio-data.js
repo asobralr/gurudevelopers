@@ -167,6 +167,7 @@ const portfolio_data = [
     brand_logo: brand_logo_7,
     job_title: "Design Wok, App Design",
     title: <>Bioefia</>,
+    slug: "bioefia",
     des: <>Bioefia System Website.</>,
     delay: ".5s",
     category: "Web",

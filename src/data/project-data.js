@@ -201,10 +201,53 @@ const project_data = [
         description: "Yoga",
       },
     ],
+    video: "/assets/videos/tlex.mp4",
     slug: "aol",
     status: "Published",
-    link_site: "https://cursos.elartedevivir.org/app",
+    
     features: [ "Audio Player",  "Offline content", "Network detection", "Multi Language", "Battery charge detection"],
+  },
+  {
+    id: 11,
+    img_1: project_img_6,
+    img_2: project_brand_6,
+    title: "Bioefia",
+    description_english: <> Management system to schedule fumigation visits. Used since 2018 by the company.</>,
+    client: "Grupo Efia",
+    delay: ".5s",
+    services: (
+      <>
+        <li>PHP </li>
+        <li>Codeigniter</li>
+        <li>Mysql</li>
+      </>
+    ),
+     
+    slug: "bioefia",
+    status: "active",
+    link_site: "http://bioefiasg.com.ar",
+    features: [ "JS Calendar", "Datatables", "Codeingiter"],
+  },
+  {
+    id: 13,
+    img_1: project_img_6,
+    img_2: project_brand_6,
+    title: "Bioefia",
+    description_english: <> Management system to schedule fumigation visits. Used since 2018 by the company.</>,
+    client: "Grupo Efia",
+    delay: ".5s",
+    services: (
+      <>
+        <li>PHP </li>
+        <li>Codeigniter</li>
+        <li>Mysql</li>
+      </>
+    ),
+     
+    slug: "bioefia",
+    status: "active",
+    link_site: "http://bioefiasg.com.ar",
+    features: [ "JS Calendar", "Datatables", "Codeingiter"],
   },
   {
     id: 8,
