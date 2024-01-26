@@ -51,8 +51,8 @@ seamless backend management.
     thumbnails: [
       {
         img: "/assets/img/thumbnails/paradise/p1.png",
-        height : 1200,
-        width: 1600,
+        
+        width: 600,
         
         description: "Home",
       },
@@ -60,8 +60,8 @@ seamless backend management.
       
       {
         img: "/assets/img/thumbnails/paradise/p4.png",
-        height : 1200,
-        width: 1600,
+        
+        width: 600,
         description: "User profile",
       },
     ],
