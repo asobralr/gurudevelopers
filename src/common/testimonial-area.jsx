@@ -23,7 +23,7 @@ export default function TestimonialArea ({ background = false }) {
         background: background ? 'linear-gradient(to top, #001F3F, #03357a)' : '',
         // backgroundColor: background ? '#03357a' : '',
         padding: background ? '30px 0 1px 0' : '',
-        marginBottom: background ? 100 : 0
+        //marginBottom: background ? 100 : 0
       }}
     >
       <article className='container container_testimonials'>
@@ -52,7 +52,7 @@ export default function TestimonialArea ({ background = false }) {
                   <div className='author'>
                     <h3 style={{color: background ? '#FFFFFF' : ''}}>{el.name}</h3>
                     <span style={{color: background ? '#F0F0F0' : ''}}>{el.title}</span>
-                    <Image src={el.brand_icon} alt="theme-pure" width={100} style={{marginTop:15}}/>
+                    <Image src={el.brand_icon} alt="theme-pure" width={0} style={{marginTop:15}}/>
                   </div>
                 </div>
               </SwiperSlide>

@@ -1,11 +1,11 @@
-import team_img_1 from "../../public/assets/img/team/AgusAvatar.png"; //team-4-1.png'
-import team_img_2 from "../../public/assets/img/team/DaroAvatar.png"; //team-4-2.png'
-import gonza from "../../public/assets/img/team/GonzaloAvatar.jpeg";
-import nadia from "../../public/assets/img/team/NadiaAvatarok.png";
-import hari from "../../public/assets/img/team/hariAvatarok.png";
-import pedrito from "../../public/assets/img/team/pedroAvatarok.png";
-import dari from "../../public/assets/img/team/DarioAvatar.png";
-import maxi from "../../public/assets/img/team/MaxiAvatar.jpeg";
+import team_img_1 from "../../public/assets/img/team/agus.jpg"; //team-4-1.png'
+import team_img_2 from "../../public/assets/img/team/daro.jpg"; //team-4-2.png'
+import gonza from "../../public/assets/img/team/gonzalo.jpg";
+import nadia from "../../public/assets/img/team/nads.jpeg";
+import hari from "../../public/assets/img/team/hari.jpg";
+import pedrito from "../../public/assets/img/team/Pedrodor.jpg";
+import dari from "../../public/assets/img/team/dariho.jpg";
+import maxi from "../../public/assets/img/team/maxi.jpg";
 
 const team_data = [
   // for home 04
@@ -18,8 +18,8 @@ const team_data = [
     slug: "agustin-sobral",
     feature_list: [
       <>
-        My set of skills includes database interaction, push and local notifications, UI/UX development, in-app purchases, Redux, Firebase, API integration, media streaming, user management, end-to-end testing, in-app advertisement, publishing on
-        AppStore and PlayStore, etc.
+        My set of skills includes database interaction, push and local notifications, UI/UX development, in-app purchases, Redux, Firebase, API integration, media streaming, user management, in-app advertisement, publishing on AppStore and PlayStore,
+        etc.
       </>,
     ],
     expricence: [
@@ -27,9 +27,9 @@ const team_data = [
       { id: 2, title: "Experience:", info: "16 years" },
     ],
     skill_title: "Superpower Skills:",
-    details_skill: ["Technical leader", "React Native", "Analytical thinking", "Typescript", "Javascript", "Appium", "SQL"],
-    about_info_1: <>Gurudevelopers is a way to live my life doing what I love and working with my friends. I'm an experienced app developer, using React Native.</>,
-    about_info_2: <>In the past, I've studied finance and economics and I've founded a small craft beer bewing company. I have 2 childs and I love to play soccer.</>,
+    details_skill: ["Technical leader", "React Native", "Analytical thinking"],
+    about_info_1: <>Gurudevelopers is a way to live my life doing what I love and working with my friends. I'm an experienced app developer, using the React Native framework.</>,
+    about_info_2: <>In the past, I've founded a small craft beer bewing company. I have 2 childs and I love to play soccer.</>,
     address: "Cañuelas, Buenos Aires, Argentina",
   },
   {
