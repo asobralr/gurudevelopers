@@ -50,7 +50,7 @@ const portfolio_data = [
     id: 1,
     thumb_img: thumb_img_1,
     brand_logo: brand_logo_0,
-    job_title: "Mobile App",
+    job_title: "Crypto wallet app",
     title: <>CiNKO</>,
     des: <>Crypto wallet built with React Native.</>,
     delay: ".5s",
