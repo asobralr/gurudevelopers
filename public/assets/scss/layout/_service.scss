@@ -1179,3 +1179,28 @@
         padding-bottom:30px !important;
     }
 }
+
+@media (max-width: 570px){
+    .container_global_services > div > div, .container_services_tabs > div{
+        padding:25px !important;
+    }
+    .container_global_services > div > div h3, .container_services_tabs > div h3{
+        padding-bottom: 0 !important;
+    }
+    .first_service_card h4{
+        font-size:18px !important;
+        padding-bottom:0 !important;
+    }
+    .first_service_card img{
+        width: 40px !important;
+    }
+    .tp-service-3-icon{
+        margin-bottom:20px !important;
+    }
+    .container_total_serviceArea{
+        padding-top: 10px !important;
+    }
+    .container_global_services > div > div svg, .container_services_tabs > div svg{
+        width:45px !important;
+    }
+}
