@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { FaPlayCircle } from "react-icons/fa";
 import { FaCirclePause } from "react-icons/fa6";
 
-const ThumbArea = ({ video, image }) => {
+const ThumbArea = ({ video, imageBack }) => {
    // Estado para controlar si el video está reproduciéndose
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -37,7 +37,7 @@ const ThumbArea = ({ video, image }) => {
     setIsPlaying(false);
   };
 
-  console.log({ video, image })
+  console.log({ video, imageBack })
   if (video) {
     return <div className='pd-thumb-area'>
     <div className='container'>
@@ -55,17 +55,17 @@ const ThumbArea = ({ video, image }) => {
   </div>
   }
 
-  if (image) {
+  if (imageBack) {
     return (
       <div className='pd-thumb-area'>
         <div className='container'>
-          <div className='row'>
-            <div className='col-12'>
-              <div className='pd-thumb'>
-                <Image src={image} alt='theme-pure' />
+          
+            
+              <div className='pd-thumb' >
+                <Image src={imageBack} width='500' height='500' alt='theme-pure' />
               </div>
-            </div>
-          </div>
+            
+          
         </div>
       </div>
     )

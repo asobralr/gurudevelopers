@@ -81,7 +81,7 @@ export const FooterGuru = ({ background = true }) => {
               color: !background ? '#03357a' : ''
             }}
           >
-            Quote here
+            Let's work together
           </p>
           <div style={{ display: 'flex', gap: 10, marginTop: 10 }}>
             <Link

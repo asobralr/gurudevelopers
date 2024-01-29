@@ -27,17 +27,16 @@ const project_data = [
     id: 1,
     img_1: project_img_1,
     img_2: project_brand_1,
-    title: "Paradise Resort",
+    title: "Booking Website",
     header: "Web Development",
     description: (
       <>
-        React, Next, <br /> Node, Express
+        Paradise, a meticulously crafted web application designed with 
+Next.js for the frontend and powered by the flexible CMS, Sanity, for 
+seamless backend management.
       </>
     ),
-    client_name: "Phillip Anthropy",
-    budget: "200-250",
-    budget_simble: "k",
-    delay: ".9s",
+    client_name: "Atlantic 0",
     slug: "paradise",
     link_site: "https://paradiseresort.com.au/",
     client: "Atlantic 0",
@@ -48,19 +47,69 @@ const project_data = [
       </>
     ),
     status: "Live",
-    video: "/assets/videos/brainbo.mp4",
+    imageBack: "/assets/img/project/paradise.png" ,
+    thumbnails: [
+      {
+        img: "/assets/img/thumbnails/paradise/p1.png",
+        
+        width: 600,
+        
+        description: "Home",
+      },
+      
+      
+      {
+        img: "/assets/img/thumbnails/paradise/p4.png",
+        
+        width: 600,
+        description: "User profile",
+      },
+    ],
+    features: ["Dynamic content", "API Integration", "Customized animations", "Customized CMS", "SEO", "Responsive design"],
   },
   {
     id: 2,
     img_1: project_img_2,
     img_2: project_brand_2,
-    title: "3d Design",
-    description: <>Excepteur sint occaecat cupidatat officia non proident, sunt in culpa qui deserunt mollit anim id est laborum.</>,
-    client_name: "Anthropy Phillip",
-    budget: "200-250",
-    budget_simble: "k",
+    title: "MyHotels",
+    services: (
+      <>
+        <li>NextJS</li>
+        <li>Strapi</li>
+      </>
+    ),
+    features: ["Dynamic Content Customization", "Back-office", "Mailgun integration", "Responsive Design", "SEO"],
+    description: (
+      <>
+        My Hotels is a modern and fully responsive website, thoughtfully designed with the integration of Next.js to ensure a seamless user experience. Driven by Strapi CMS, this platform empowers dynamic content creation, showcasing a diverse
+        selection of hotel chains, including voco and indigo. Explore personalized pages, uncover exclusive offers, and stay informed through blogs. Utilizing Mailgun, communication is streamlined, enhancing the uninterrupted and luxurious journey
+        facilitated by My Hotels.
+      </>
+    ),
+    client: "Atlantic 0",
     delay: ".5s",
     slug: "myhotels",
+    status: "Coming soon",
+    thumbnails: [
+      {
+        img: "/assets/img/thumbnails/myhotels/my-hotels-1.png",
+        description: "Home",
+        width: 600,
+        height: 400,
+      },
+      {
+        img: "/assets/img/thumbnails/myhotels/my-hotels-2.png",
+        description: "Game",
+        width: 600,
+        height: 400,
+      },
+      {
+        img: "/assets/img/thumbnails/myhotels/my-hotels-3.png",
+        description: "User profile",
+        width: 600,
+        height: 400,
+      },
+    ],
     link_site: "https://strapi-hotel-com.vercel.app",
   },
   {
@@ -68,11 +117,37 @@ const project_data = [
     img_1: project_img_4,
     img_2: project_brand_4,
     title: "ABCo",
-    header: "Development Shopify, Backend and Frontend",
-    description: <>Excepteur sint occaecat cupidatat officia non proident, sunt in culpa qui deserunt mollit anim id est laborum.</>,
-    client_name: "Anthropy Salim",
-    budget: "200-250",
-    budget_simble: "k",
+    header: "E-commerce website",
+    services: (
+      <>
+        <li>NodeJS</li>
+        <li>ReactJS</li>
+        <li>Express</li>
+        <li>MongoDB</li>
+      </>
+    ),
+    status: "Live",
+    features: ["Shopify integration", "Real-Time Streaming with Web Sockets", "Email Management with Nodemailer", "Custom Admin Panel", "Notifications"],
+    description: (
+      <>
+        ABco is an innovative web application designed to streamline and enhance the process of consigning and selling sneakers. Developed with cutting-edge technologies, our system integrates an efficient frontend built on Next.js and a robust
+        backend based on Node.js. This combination ensures a smooth user experience and intuitive navigation.
+      </>
+    ),
+    client: "Atlantic 0",
+    imageBack: "/assets/img/project/ABCo.png",
+    thumbnails: [
+      {
+        img: "/assets/img/thumbnails/abco/abco-1.png",
+        description: "Home",
+        width: 600,
+      },
+      {
+        img: "/assets/img/thumbnails/abco/abco-2.png",
+        description: "Game",
+        width: 600,
+      },
+    ],
     delay: ".9s",
     slug: "abco",
   },
@@ -182,6 +257,7 @@ const project_data = [
     slug: "tlex",
     status: "Published",
     video: "/assets/videos/tlex.mp4",
+    
     link_site: "https://tlexflow.app",
     features: ["Social login", "Audio Player", "Video player", "Offline", "Multi Language", "21 Days Challenge"],
   },
@@ -190,11 +266,8 @@ const project_data = [
     img_1: project_img_6,
     img_2: project_brand_6,
     title: "Sudarshan Kriya App",
-    description: <>Internal App for art of living teachers. </>,
+    description: <>We have crafted an exclusive internal application tailored for Art of Living teachers, elevating their experience through a comprehensive solution that includes a sophisticated Backoffice. Within this intuitive platform, every teacher possesses a personalized kit, ensuring  access to essential tools and resources. Our commitment to enhancing the teaching experience is exemplified through this purpose-built app, designed to empower and streamline the work of Art of Living teachers."</>,
     client: "Art of Living",
-    budget: "200-250",
-    budget_simble: "k",
-    delay: ".5s",
     services: (
       <>
         <li>Expo</li>
@@ -216,10 +289,52 @@ const project_data = [
         description: "Yoga",
       },
     ],
+    imageBack: "/assets/img/project/Teachers.png" ,
     slug: "aol",
     status: "Published",
-    link_site: "https://cursos.elartedevivir.org/app",
-    features: ["Audio Player", "Offline content", "Network detection", "Multi Language", "Battery charge detection"],
+    features: [ "Audio Player",  "Offline content", "Network detection", "Multi Language", "Battery charge detection"],
+  },
+  {
+    id: 11,
+    img_1: project_img_6,
+    img_2: project_brand_6,
+    title: "Bioefia",
+    description: <>Since 2018, our company has relied on a cutting-edge PHP Codeigniter management system designed for scheduling fumigation visits. This dynamic system not only efficiently coordinates appointments but also generates certificates and issues timely notifications to our valued clients. Serving as an indispensable tool, it has been pivotal in elevating our service standards. We take pride in the consistent use of this platform since its inception, reflecting its enduring reliability and impact on client satisfaction.</>,
+    client: "Grupo Efia",
+    delay: ".5s",
+    services: (
+      <>
+        <li>PHP </li>
+        <li>Codeigniter</li>
+        <li>Mysql</li>
+      </>
+    ),
+    imageBack: "/assets/img/project/bioefia.png" , 
+    slug: "bioefia",
+    status: "active",
+    link_site: "http://bioefiasg.com.ar",
+    features: ["JS Calendar", "Datatables", "Codeingiter"],
+  },
+  {
+    id: 13,
+    img_1: project_img_6,
+    img_2: project_brand_6,
+    title: "Alic",
+    description: <> Alic has been an integral part of our journey from the very beginning. We initiated our online presence by developing a website using WordPress. We progressed to crafting customized solutions for major their clients, creating a wholesale that integrates with their APIs. Alic's expertise has played a crucial role in shaping our technological evolution and ensuring the success of these ambitious ventures.</>,
+    client: "Alic",
+    delay: ".5s",
+    services: (
+      <>
+        <li>PHP </li>
+        <li>Wordpress</li>
+        <li>Mysql</li>
+      </>
+    ),
+    imageBack: "/assets/img/project/alic.png" , 
+    slug: "alic",
+    status: "active",
+    link_site: "https://alic.com.ar/",
+    features: [ "API integration", "MailChimp", "Wordpress plugin development"],
   },
   {
     id: 8,
@@ -249,7 +364,7 @@ const project_data = [
         description: "Color Test",
       },
     ],
-    video: "/assets/videos/brainbo.mp4",
+    imageBack: "/assets/img/project/gc_site.jpg" ,
     services: (
       <>
         <li>React Native</li>
@@ -282,12 +397,45 @@ const project_data = [
         description: "Color Test",
       },
     ],
-    video: "/assets/videos/brainbo.mp4",
+    imageBack: "/assets/img/project/pai.png" ,
     services: (
       <>
         <li>React Native</li>
         <li>NodeJS</li>
         <li>MongoDB</li>
+      </>
+    ),
+  },
+  {
+    id: 10,
+    title: "CiNKO",
+    description:
+      "CiNKO is a crypto wallet focused on enabling instant cross-border transfers and efficient payout distributions. It allows the user to top up mobile minutes, operate with the most popuplar stablecoins and withdraw cash using Moneygram network.",
+    client: "Island Pay",
+    delay: ".9s",
+    slug: "cinko",
+    header: "Crypto wallet app",
+    status: "Published",
+    features: ["Biometric login", "Bank trasnfers", "KYC process", "Moneygram integration", "P2P transfers", "Mobile topup", "E2E Testing"],
+    thumbnails: [
+      {
+        img: "/assets/img/thumbnails/cinko/cinko-1.png",
+        description: "settings",
+      },
+      {
+        img: "/assets/img/thumbnails/cinko/cinko-2.png",
+        description: "User profile",
+      },
+      {
+        img: "/assets/img/thumbnails/cinko/cinko-3.png",
+        description: "Color Test",
+      },
+    ],
+    link_site: "https://cinko.io",
+    video: "/assets/videos/brainbo.mp4",
+    services: (
+      <>
+        <li>React Native</li>
       </>
     ),
   },
