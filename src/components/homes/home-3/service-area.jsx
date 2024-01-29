@@ -31,7 +31,7 @@ const { title, btn_text, bg_img, service_title, service_info } = service_content
 const ServiceArea = () => {
   return (
     <>
-      <div className='tp-service-area pb-90 pt-70 z-index'>
+      <div className='tp-service-area pb-90 pt-70 z-index container_total_serviceArea'>
         <div className='container'>
           <div className='row'>
             <div className='col-xl-12'>
@@ -58,7 +58,7 @@ const ServiceArea = () => {
               data-wow-delay='.5s'
             >
               <div
-                className='tp-service-3-item mb-30 p-relative z-index'
+                className='tp-service-3-item mb-30 p-relative z-index first_service_card'
                 style={{ backgroundImage: `url(${bg_img})` }}
               >
                 <div className='tp-service-3-icon'>
