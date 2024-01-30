@@ -439,5 +439,44 @@ seamless backend management.
       </>
     ),
   },
+  {
+    id: 11,
+    title: "Membership",
+    description:
+      "Membreship is a membership platform that allows users to access exclusive content. It includes a membership system, a marketplace and a video player. The project also includes a web app for the admin.",
+    client: "Art of Living",
+    
+    slug: "membresia",
+    header: "Membership",
+    status: "Online",
+    features: ["CMS", "E-commerce", "Membership", "Video Player", "Audio Player"],
+    link_site: "https://membresia.org",
+    imageBack: "/assets/img/project/membresi.png",
+    services: (
+      <>
+        <li>Wordpress</li>
+        <li>Woocommerce</li>
+      </>
+    ),
+  },
+  {
+    id: 10,
+    title: "Metaverse",
+    description:
+      "Decentralized developments, We create NFT gallery, videos, games and meditation place. ",
+    client: "Decentraland",
+    
+    slug: "metaverse",
+    header: "Decentraland Development",
+    status: "Demo",
+    features: ["NFT gallery", "NFT marketplace", "NFT games", "DeFi", "DAO"],
+    link_site: "",
+    video: "/assets/videos/GurudevMetaverse.mp4",
+    services: (
+      <>
+        <li>Decentraland</li>
+      </>
+    ),
+  },
 ];
 export default project_data;
