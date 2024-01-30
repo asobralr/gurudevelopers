@@ -5,13 +5,15 @@ import thumb_img_1 from "../../public/assets/img/project/Cinko.png";
 import thumb_img_2a from "../../public/assets/img/project/ABCo.png";
 import pai from "../../public/assets/img/project/pai.png";
 import tlex from "../../public/assets/img/project/tlex.png";
+import metaverse from "../../public/assets/img/project/metaverse.png";
+import membresia from "../../public/assets/img/project/membresi.png";
 
 import thumb_img_2 from "../../public/assets/img/project/brainbo.png";
 
 import thumb_img_3 from "../../public/assets/img/project/gc_site.jpg";
 import thumb_img_4 from "../../public/assets/img/project/Teachers.png";
 import thumb_img_5 from "../../public/assets/img/project/pithia.png";
-import thumb_img_6 from "../../public/assets/img/project/metaverse.jpeg";
+
 import thumb_img_7 from "../../public/assets/img/project/bioefia.png";
 import thumb_img_8 from "../../public/assets/img/project/eter.png";
 import thumb_img_9 from "../../public/assets/img/project/MoeviusImg.png";
@@ -192,7 +194,7 @@ const portfolio_data = [
     id: 14,
     thumb_img: pai,
     brand_logo: pai,
-    job_title: "Crypro Wallet App",
+    job_title: "Crypto Wallet App",
     title: <>PAI</>,
     des: <>A crypto wallet that uses PAI, a stablecoin paired to the Argentine Peso.</>,
     delay: ".5s",
@@ -200,6 +202,30 @@ const portfolio_data = [
     filter_id: ["all"],
     brand_logo_view: false,
     slug: "pai",
+  },
+  {
+    id: 15,
+    thumb_img: membresia,
+    brand_logo: membresia,
+    job_title: "Membership Development",
+    title: <>Art of living Membership</>,
+    des: <>Membership development for a meditation platform</>,
+    category: "Web",
+    filter_id: ["all"],
+    brand_logo_view: false,
+    slug: "membresia",
+  },
+  {
+    id: 16,
+    thumb_img: metaverse,
+    brand_logo: metaverse,
+    job_title: "Metaverse Development",
+    title: <>Decentraland</>,
+    des: <>Metaverse development for a virtual reality project. Decentraland implementation</>,
+    category: "Web",
+    filter_id: ["all"],
+    brand_logo_view: false,
+    slug: "metaverse",
   },
 ];
 export default portfolio_data;
