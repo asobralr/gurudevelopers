@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { initGA, logPageView } from "../utils/analytics";
+import { GoogleAnalytics } from "nextjs-google-analytics";
 import "@/src/styles/index.scss";
 
 if (typeof window !== "undefined") {
@@ -7,10 +6,6 @@ if (typeof window !== "undefined") {
 }
 
 export default function App({ Component, pageProps }) {
-  useEffect(() => {
-    initGA();
-    logPageView();
-  }, []);
-
+  <GoogleAnalytics trackPageViews gaMeasurementId="G-0HDCB44PRE" />;
   return <Component {...pageProps} />;
 }
