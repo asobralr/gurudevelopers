@@ -20,9 +20,11 @@ export default function TestimonialArea ({ background = false }) {
   return (
     <section
       style={{
-        background: background ? 'linear-gradient(to top, #001F3F, #03357a)' : '',
+        background: background
+          ? 'linear-gradient(to top, #001F3F, #03357a)'
+          : '',
         // backgroundColor: background ? '#03357a' : '',
-        padding: background ? '30px 0 1px 0' : '',
+        padding: background ? '30px 0 1px 0' : ''
         //marginBottom: background ? 100 : 0
       }}
     >
@@ -34,30 +36,6 @@ export default function TestimonialArea ({ background = false }) {
           <FaChevronLeft style={{ color: background ? '#FFFFFF' : '' }} />
         </div>
         <div className='container_swiper'>
-          <Swiper {...setting} modules={[Navigation]}>
-            {testimonials.map((el, index) => (
-              <SwiperSlide key={el.name + '-' + index} className='testimonial'>
-                <div>
-                  <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <div className='image_testimonial'>
-                      <Image
-                        src={el.author_img}
-                        alt='theme-pure'
-                        width={100}
-                        height={100}
-                      />
-                    </div>
-                  </div>
-                  <p className='description' style={{color: background ? '#F0F0F0' : ''}}>{el.description}</p>
-                  <div className='author'>
-                    <h3 style={{color: background ? '#FFFFFF' : ''}}>{el.name}</h3>
-                    <span style={{color: background ? '#F0F0F0' : ''}}>{el.title}</span>
-                    <Image src={el.brand_icon} alt="theme-pure" width={0} style={{marginTop:15}}/>
-                  </div>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
           <div className='arrows_testimonials_responsive'>
             <div
               className='prev_arrow'
@@ -72,6 +50,44 @@ export default function TestimonialArea ({ background = false }) {
               <FaChevronRight style={{ color: background ? '#FFFFFF' : '' }} />
             </div>
           </div>
+          <Swiper {...setting} modules={[Navigation]}>
+            {testimonials.map((el, index) => (
+              <SwiperSlide key={el.name + '-' + index} className='testimonial'>
+                <div>
+                  <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    <div className='image_testimonial'>
+                      <Image
+                        src={el.author_img}
+                        alt='theme-pure'
+                        width={100}
+                        height={100}
+                      />
+                    </div>
+                  </div>
+                  <p
+                    className='description'
+                    style={{ color: background ? '#F0F0F0' : '' }}
+                  >
+                    {el.description}
+                  </p>
+                  <div className='author'>
+                    <h3 style={{ color: background ? '#FFFFFF' : '' }}>
+                      {el.name}
+                    </h3>
+                    <span style={{ color: background ? '#F0F0F0' : '' }}>
+                      {el.title}
+                    </span>
+                    <Image
+                      src={el.brand_icon}
+                      alt='theme-pure'
+                      width={0}
+                      style={{ marginTop: 15 }}
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
         <div
           className='next_arrow next_arrow_desktop'

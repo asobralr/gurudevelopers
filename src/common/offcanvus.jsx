@@ -26,7 +26,7 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                     <div className="mobile-menu mean-container">
                         <MobileMenus />
                     </div>
-                    <div className="tpoffcanvas__instagram text-center">
+                    {/* <div className="tpoffcanvas__instagram text-center">
                     <div className="tpoffcanvas__instagram-title">
                         <h4>instagram</h4>
                     </div>  
@@ -49,7 +49,7 @@ const Offcanvus = ({sidebarOpen, setSidebarOpen}) => {
                         <Link href="#"><i className="fab fa-facebook-square"></i></Link>
                         <Link href="#"><i className="fab fa-dribbble"></i></Link>
                     </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className={`body-overlay ${sidebarOpen &&  "apply"}`} onClick={() => setSidebarOpen(false)}></div>
