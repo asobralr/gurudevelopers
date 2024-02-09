@@ -44,7 +44,7 @@ export const FooterGuru = ({ background = true }) => {
       className='footer_guru'
       style={{
         background: background
-          ? 'linear-gradient(to bottom, #001F3F, #03357a)'
+          ? 'linear-gradient(to bottom,#962DAA, #221DC5)'
           : '#FFFFFF',
         padding: background ? '60px 0' : '20px 0'
       }}
