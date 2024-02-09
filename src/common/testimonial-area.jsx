@@ -4,6 +4,9 @@ import 'swiper/css'
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa6'
 import testimonial_data from '../data/testimonial-data'
 import Image from 'next/image'
+import bg from '../../public/assets/img/testimonial/backgroundTestimonials.png'
+import asset_bg from '../../public/assets/img/testimonial/asset_background.png'
+import asset_bg2 from '../../public/assets/img/testimonial/asset_background2.png'
 
 const testimonials = testimonial_data
 
@@ -20,14 +23,20 @@ export default function TestimonialArea ({ background = false }) {
   return (
     <section
       style={{
-        background: background
-          ? 'linear-gradient(to top, #001F3F, #03357a)'
-          : '',
-        // backgroundColor: background ? '#03357a' : '',
-        padding: background ? '30px 0 1px 0' : ''
-        //marginBottom: background ? 100 : 0
+        // background: background
+        //   ? 'linear-gradient(to top, #001F3F, #03357a)'
+        //   : '',
+        padding: background ? '30px 0 1px 0' : '',
+        position: 'relative'
       }}
     >
+      {background && (
+        <div className='background_testimonials'>
+          <Image src={bg} className='bg_image' />
+          <Image src={asset_bg} className='bg_asset_image' />
+          <Image src={asset_bg2} className='bg_asset_image2' />
+        </div>
+      )}
       <article className='container container_testimonials'>
         <div
           className='prev_arrow prev_arrow_desktop'

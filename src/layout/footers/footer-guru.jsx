@@ -53,7 +53,7 @@ export const FooterGuru = ({ background = true }) => {
         <div className='container_left'>
           <div className='footer_guru__image'>
             <Link href='/'>
-              <Image src={background ? logo_white : logo} alt='' />
+              <Image src={background ? logo_white : logo} alt='' width={140}/>
             </Link>
           </div>
           <nav>
