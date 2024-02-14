@@ -36,7 +36,7 @@ const social_networks = [
   //   }
 ]
 // ESTRUCTURA : {link:string, icon:react_icon}
-const mail = 'info@gurudevelopers.dev'
+const mail = 'hello@gurudevelopers.dev'
 
 export const FooterGuru = ({ background = true }) => {
   return (

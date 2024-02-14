@@ -16,7 +16,7 @@ import footer_logo from "../../../public/assets/img/footer/gurudev.png";
 const footer_content = {
     info:"Book a 15 minutes discovery call",
     phone: "+54 (911) 5644 5275",
-    email: "info@gurudevelopers.dev",
+    email: "hello@gurudevelopers.dev",
     
     footer_lisks : [
         {
