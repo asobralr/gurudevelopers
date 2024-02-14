@@ -25,7 +25,7 @@ const HeaderGuru = () => {
               <div className='col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6'>
                 <div className='header-bottom__logo'>
                   <Link href='/'>
-                    <Image src={logo} alt='' />
+                    <Image src={logo} alt='' width={140}/>
                   </Link>
                 </div>
               </div>

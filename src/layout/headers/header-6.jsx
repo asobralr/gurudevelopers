@@ -28,15 +28,15 @@ const HeaderSix = ({ style_2 = false }) => {
                 <div className='header-bottom__logo'>
                   {style_2 ? (
                     <Link href='/'>
-                      <Image src={logo_black} alt='theme-pure' />
+                      <Image src={logo_black} alt='theme-pure' width={140}/>
                     </Link>
                   ) : (
                     <>
                       <Link className='white-logo' href='/'>
-                        <Image src={logo_white} alt='theme-pure' />
+                        <Image src={logo_white} alt='theme-pure' width={140}/>
                       </Link>
                       <Link className='black-logo' href='/'>
-                        <Image src={logo_black} alt='' />
+                        <Image src={logo_black} alt='' width={140}/>
                       </Link>
                     </>
                   )}

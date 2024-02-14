@@ -28,7 +28,7 @@ const lottieRef =
  useTitleAnimation(subtitleRef);
   return (
     <>
-      <div className="breadcrumb__area breadcrumb-height p-relative blue-bg-2">
+      <div className="breadcrumb__area breadcrumb-height p-relative" style={{background: 'linear-gradient(to right,#962DAA, #221DC5)'}}>
         <div className="breadcrumb__shape-1">
           <Image src={shape_1} alt="theme-pure" />
         </div>
