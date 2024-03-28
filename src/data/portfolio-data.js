@@ -1,12 +1,12 @@
 // thumb img import here
-import thumb_img_0 from "../../public/assets/img/project/paradise.png";
-import thumb_img_1a from "../../public/assets/img/project/myhotels.png";
-import thumb_img_1 from "../../public/assets/img/project/Cinko.png";
-import thumb_img_2a from "../../public/assets/img/project/ABCo.png";
-import pai from "../../public/assets/img/project/pai.png";
-import tlex from "../../public/assets/img/project/tlex.png";
-import metaverse from "../../public/assets/img/project/metaverse.png";
-import membresia from "../../public/assets/img/project/membresi.png";
+import thumb_img_0 from "../../public/assets/img/img_proy/GD-proy_paradise-1.jpg";
+import thumb_img_1a from "../../public/assets/img/img_proy/GD-proy_myHotels-1.jpg";
+import thumb_img_1 from "../../public/assets/img/img_proy/GD-proy_CiNKO-1.jpg";
+import thumb_img_2a from "../../public/assets/img/img_proy/GD-proy_ABCo-1.jpg";
+import pai from "../../public/assets/img/img_proy/GD-proy_PAI-1.jpg";
+import tlex from "../../public/assets/img//img_proy/GD-proy_tlex-1.jpg";
+import metaverse from "../../public/assets/img/img_proy/GD-proy_Metaverse-1.jpg";
+import membresia from "../../public/assets/img/img_proy/GD-proy_Membresia-AOL-1.jpg";
 
 import thumb_img_2 from "../../public/assets/img/project/brainbo.png";
 
@@ -20,7 +20,7 @@ import thumb_img_9 from "../../public/assets/img/project/MoeviusImg.png";
 import thumb_img_10 from "../../public/assets/img/project/alic.png";
 import thumb_img_11 from "../../public/assets/img/project/Cinko.png";
 // brand logo import here
-import brand_logo_0 from "../../public/assets/img/project/paradise.png";
+import brand_logo_0 from "../../public/assets/img/img_proy/GD-proy_paradise-2.jpg";
 import brand_logo_1 from "../../public/assets/img/project/project-inner-brand-1.png";
 import brand_logo_2 from "../../public/assets/img/project/project-inner-brand-2.png";
 import brand_logo_3 from "../../public/assets/img/project/project-inner-brand-3.png";
