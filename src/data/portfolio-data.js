@@ -8,15 +8,15 @@ import tlex from "../../public/assets/img//img_proy/GD-proy_tlex-1.jpg";
 import metaverse from "../../public/assets/img/img_proy/GD-proy_Metaverse-1.jpg";
 import membresia from "../../public/assets/img/img_proy/GD-proy_Membresia-AOL-1.jpg";
 
-import thumb_img_2 from "../../public/assets/img/project/brainbo.png";
+import thumb_img_2 from "../../public/assets/img/img_proy/GD-proy_Mycoocoon-1.jpg";
 
-import thumb_img_3 from "../../public/assets/img/project/gc_site.jpg";
+import thumb_img_3 from "../../public/assets/img/img_proy/GD-proy_Grupo-Casa-1.jpg";
 import thumb_img_4 from "../../public/assets/img/project/Teachers.png";
 import thumb_img_5 from "../../public/assets/img/project/pithia.png";
 
-import thumb_img_7 from "../../public/assets/img/project/bioefia.png";
+import thumb_img_7 from "../../public/assets/img/img_proy/GD-proy_bioefia-1.jpg";
 import thumb_img_8 from "../../public/assets/img/project/eter.png";
-import thumb_img_9 from "../../public/assets/img/project/MoeviusImg.png";
+import thumb_img_9 from "../../public/assets/img/img_proy/GD-proy_Mycoocoon-1.jpg";
 import thumb_img_10 from "../../public/assets/img/project/alic.png";
 import thumb_img_11 from "../../public/assets/img/project/Cinko.png";
 // brand logo import here

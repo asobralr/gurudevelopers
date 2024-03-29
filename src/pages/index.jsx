@@ -6,7 +6,7 @@ import HomeGuru from "../components/homes/guruHome";
 const Home = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"GuruDevelopers"} />
+      <SEO pageTitle={"GuruDevelopers - Top React Native Developers"} />
       <HomeGuru />
     </Wrapper>
   );
