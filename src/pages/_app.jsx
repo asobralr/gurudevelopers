@@ -8,8 +8,8 @@ if (typeof window !== "undefined") {
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Component {...pageProps} />;
-      <GoogleAnalytics trackPageViews gaMeasurementId="G-0HDCB44PRE" />;
+      <Component {...pageProps} />
+      <GoogleAnalytics trackPageViews gaMeasurementId="G-0HDCB44PRE" />
     </>
-  );
+  )
 }
